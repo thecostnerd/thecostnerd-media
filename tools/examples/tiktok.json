@@ -1,0 +1,1298 @@
+[
+ {
+  "slug": "gas-nine-tenths-tiktok",
+  "date": "day-01",
+  "cover": {
+   "bg": "ink",
+   "head": "Why gas prices end in 9/10¢",
+   "hl": [
+    "9/10¢"
+   ],
+   "hsize": 150,
+   "art": [
+    {
+     "f": "gas_sign",
+     "s": 0.648,
+     "x": 0.47,
+     "y": 0.5
+    }
+   ],
+   "sub": "It started in the 1930s",
+   "sticker": "?!",
+   "series": "PRICE TRICKS · DAY 1"
+  },
+  "beats": [
+   {
+    "bg": "ink",
+    "head": "Gas prices have a WEIRD ending.",
+    "hl": [
+     "WEIRD"
+    ],
+    "art": [
+     {
+      "f": "gas_sign",
+      "s": 0.648,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Look closely at the next sign you pass.",
+    "sticker": "?!",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 1"
+   },
+   {
+    "bg": "red",
+    "head": "That extra 9/10 of a cent?",
+    "art": [
+     {
+      "f": "magnifier",
+      "args": {
+       "txt": "9/10¢"
+      },
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Every gallon. Almost every station in the US.",
+    "dur": 4,
+    "series": "PRICE TRICKS · DAY 1"
+   },
+   {
+    "bg": "cream",
+    "head": "It started in the 1930s.",
+    "art": [
+     {
+      "f": "calendar",
+      "args": {
+       "top": "SINCE",
+       "big": "1932"
+      },
+      "s": 0.495,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "The first US federal gas tax was 1/10 of a cent a gallon.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 1"
+   },
+   {
+    "bg": "ink",
+    "head": "Gas was SO cheap, 1¢ was a 10% swing.",
+    "hl": [
+     "SO"
+    ],
+    "art": [
+     {
+      "f": "coin",
+      "args": {
+       "txt": "1¢"
+      },
+      "s": 0.45,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Many areas fell below 10¢ a gallon.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 1"
+   },
+   {
+    "bg": "yellow",
+    "head": "Then it became a TRICK.",
+    "hl": [
+     "TRICK."
+    ],
+    "art": [
+     {
+      "f": "left_digit",
+      "args": {
+       "a": [
+        "$3.4",
+        "9"
+       ],
+       "b": [
+        "$3.5",
+        "0"
+       ]
+      },
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Drivers read the first digits on the sign.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 1"
+   },
+   {
+    "bg": "cream",
+    "head": "Your brain weighs the LEFT digit most.",
+    "hl": [
+     "LEFT"
+    ],
+    "art": [
+     {
+      "f": "brain",
+      "s": 0.45,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Researchers call it the left-digit effect (NYU, 2005).",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 1"
+   },
+   {
+    "bg": "red",
+    "head": "Fix: round it UP.",
+    "hl": [
+     "UP."
+    ],
+    "art": [
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$3.50",
+       "color": [
+        247,
+        196,
+        49,
+        255
+       ]
+      },
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "$3.49 9/10 is $3.50. Compare stations that way.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 1"
+   },
+   {
+    "bg": "ink",
+    "end": "Next: why $49 outsold $44.",
+    "src": "Sources: NACS · Thomas & Morwitz, J. of Consumer Research (2005)",
+    "series": "PRICE TRICKS · DAY 1"
+   }
+  ]
+ },
+ {
+  "slug": "price-ending-9-tiktok",
+  "date": "day-02",
+  "cover": {
+   "bg": "cream",
+   "head": "Why $49 BEATS $44",
+   "hl": [
+    "BEATS"
+   ],
+   "hsize": 170,
+   "art": [
+    {
+     "f": "price_tag",
+     "args": {
+      "txt": "$44",
+      "rot": 8
+     },
+     "s": 0.414,
+     "x": 0.24,
+     "y": 0.35
+    },
+    {
+     "f": "price_tag",
+     "args": {
+      "txt": "$49",
+      "color": [
+       216,
+       38,
+       30,
+       255
+      ],
+      "tcol": [
+       255,
+       250,
+       240,
+       255
+      ]
+     },
+     "s": 0.504,
+     "x": 0.63,
+     "y": 0.6
+    },
+    {
+     "f": "trophy",
+     "s": 0.27,
+     "x": 0.77,
+     "y": 0.18
+    }
+   ],
+   "sub": "Same item. Higher price. More sales.",
+   "series": "PRICE TRICKS · DAY 2"
+  },
+  "beats": [
+   {
+    "bg": "cream",
+    "head": "Same item. 3 prices. GUESS the winner.",
+    "hl": [
+     "GUESS"
+    ],
+    "art": [
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$44",
+       "rot": 6
+      },
+      "s": 0.36,
+      "x": 0.22,
+      "y": 0.4
+     },
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$49",
+       "rot": -6
+      },
+      "s": 0.36,
+      "x": 0.69,
+      "y": 0.4
+     },
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$54",
+       "rot": 4
+      },
+      "s": 0.36,
+      "x": 0.45,
+      "y": 0.78
+     }
+    ],
+    "sticker": "?",
+    "sub": "Comment your guess ↓",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 2"
+   },
+   {
+    "bg": "ink",
+    "head": "The test: a women's clothing CATALOG.",
+    "hl": [
+     "CATALOG."
+    ],
+    "art": [
+     {
+      "f": "catalog",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Researchers printed 3 versions. Only the price changed.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 2"
+   },
+   {
+    "bg": "yellow",
+    "head": "Cheapest wins, right?",
+    "art": [
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$44"
+      },
+      "s": 0.45,
+      "x": 0.47,
+      "y": 0.32
+     },
+     {
+      "f": "stamp",
+      "args": {
+       "txt": "NOPE"
+      },
+      "s": 0.495,
+      "x": 0.47,
+      "y": 0.78,
+      "delay": 0.9
+     }
+    ],
+    "dur": 4,
+    "series": "PRICE TRICKS · DAY 2"
+   },
+   {
+    "bg": "red",
+    "head": "$49 beat BOTH.",
+    "hl": [
+     "BOTH."
+    ],
+    "art": [
+     {
+      "f": "trophy",
+      "s": 0.378,
+      "x": 0.47,
+      "y": 0.32
+     },
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$49",
+       "color": [
+        247,
+        196,
+        49,
+        255
+       ]
+      },
+      "s": 0.468,
+      "x": 0.47,
+      "y": 0.8,
+      "delay": 0.4
+     }
+    ],
+    "sub": "$44 and $54 sold almost the same.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 2"
+   },
+   {
+    "bg": "ink",
+    "head": "In some tests, demand jumped over",
+    "count": {
+     "from": 0,
+     "to": 50,
+     "fmt": "+{:.0f}%",
+     "size": 330,
+     "y": 0.45,
+     "dur": 1.3
+    },
+    "sub": "Anderson & Simester, field experiments",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 2"
+   },
+   {
+    "bg": "cream",
+    "head": "WHY #1: a 9 looks like a SALE.",
+    "hl": [
+     "SALE."
+    ],
+    "art": [
+     {
+      "f": "sale_sign",
+      "s": 0.45,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Shoppers assume a $9 ending means it was marked down.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 2"
+   },
+   {
+    "bg": "yellow",
+    "head": "WHY #2: you read the LEFT digit first.",
+    "hl": [
+     "LEFT"
+    ],
+    "art": [
+     {
+      "f": "left_digit",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "$49 feels like “forty-something.” $50 feels like fifty.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 2"
+   },
+   {
+    "bg": "red",
+    "head": "Fix: round it UP.",
+    "hl": [
+     "UP."
+    ],
+    "art": [
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$50",
+       "color": [
+        255,
+        252,
+        244,
+        255
+       ]
+      },
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "$49 is $50. $19.99 is $20.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 2"
+   },
+   {
+    "bg": "ink",
+    "end": "Next: the chocolate bar that grew gaps.",
+    "src": "Sources: Anderson & Simester (Chicago Booth Review) · Thomas & Morwitz (2005)",
+    "series": "PRICE TRICKS · DAY 2"
+   }
+  ]
+ },
+ {
+  "slug": "costco-hot-dog-tiktok",
+  "date": "day-04",
+  "cover": {
+   "bg": "red",
+   "head": "$1.50 SINCE 1985?!",
+   "hl": [
+    "$1.50"
+   ],
+   "hsize": 170,
+   "art": [
+    {
+     "f": "hotdog",
+     "s": 0.558,
+     "x": 0.39,
+     "y": 0.42
+    },
+    {
+     "f": "soda_cup",
+     "s": 0.378,
+     "x": 0.73,
+     "y": 0.62
+    },
+    {
+     "f": "price_tag",
+     "args": {
+      "txt": "$1.50"
+     },
+     "s": 0.45,
+     "x": 0.27,
+     "y": 0.8
+    }
+   ],
+   "sub": "Why Costco will never raise it",
+   "sticker": "?!",
+   "series": "PRICE TRICKS · DAY 4"
+  },
+  "beats": [
+   {
+    "bg": "red",
+    "head": "Costco WON'T raise this price.",
+    "hl": [
+     "WON'T"
+    ],
+    "art": [
+     {
+      "f": "hotdog",
+      "s": 0.558,
+      "x": 0.39,
+      "y": 0.42
+     },
+     {
+      "f": "soda_cup",
+      "s": 0.378,
+      "x": 0.75,
+      "y": 0.6
+     },
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$1.50"
+      },
+      "s": 0.45,
+      "x": 0.27,
+      "y": 0.82,
+      "delay": 0.5
+     }
+    ],
+    "sub": "Hot dog + soda. $1.50 since 1985.",
+    "sticker": "?!",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 4"
+   },
+   {
+    "bg": "ink",
+    "head": "Inflation says it should cost…",
+    "count": {
+     "from": 1.5,
+     "to": 4.7,
+     "fmt": "${:.2f}",
+     "size": 330,
+     "y": 0.45,
+     "dur": 1.6
+    },
+    "sub": "$1.50 in 1985 ≈ $4.70 today (US BLS CPI)",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 4"
+   },
+   {
+    "bg": "cream",
+    "head": "“The hot dog price will not change as long as I'm around.”",
+    "hsize": 104,
+    "hmax": 520,
+    "art": [
+     {
+      "f": "hotdog",
+      "s": 0.45,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Costco CEO Ron Vachris, March 2026",
+    "dur": 6,
+    "series": "PRICE TRICKS · DAY 4"
+   },
+   {
+    "bg": "yellow",
+    "head": "So how does Costco win?",
+    "art": [
+     {
+      "f": "question",
+      "s": 0.495,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "dur": 4,
+    "series": "PRICE TRICKS · DAY 4"
+   },
+   {
+    "bg": "red",
+    "head": "The hot dog is BAIT.",
+    "hl": [
+     "BAIT."
+    ],
+    "art": [
+     {
+      "f": "hotdog",
+      "s": 0.378,
+      "x": 0.22,
+      "y": 0.45
+     },
+     {
+      "f": "arrow",
+      "s": 0.234,
+      "x": 0.49,
+      "y": 0.45,
+      "delay": 0.4
+     },
+     {
+      "f": "member_card",
+      "s": 0.396,
+      "x": 0.75,
+      "y": 0.45,
+      "delay": 0.6
+     }
+    ],
+    "sub": "It sells the membership.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 4"
+   },
+   {
+    "bg": "cream",
+    "head": "Fees = about ⅔ of profit.",
+    "hl": [
+     "⅔"
+    ],
+    "art": [
+     {
+      "f": "pie",
+      "args": {
+       "frac": 0.657
+      },
+      "s": 0.522,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "$5.3B in fees vs $8.1B profit, FY2025",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 4"
+   },
+   {
+    "bg": "ink",
+    "head": "Renewing? Do the math FIRST.",
+    "hl": [
+     "FIRST."
+    ],
+    "art": [
+     {
+      "f": "member_card",
+      "s": 0.495,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Saved more than the fee? Keep it.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 4"
+   },
+   {
+    "bg": "ink",
+    "end": "Next: the store shoppers punished for honest prices.",
+    "src": "Sources: BLS CPI · Fortune · Costco FY2025",
+    "series": "PRICE TRICKS · DAY 4"
+   }
+  ]
+ },
+ {
+  "slug": "jcpenney-tiktok",
+  "date": "day-05",
+  "cover": {
+   "bg": "red",
+   "head": "Shoppers HATED honest prices.",
+   "hl": [
+    "HATED"
+   ],
+   "hsize": 160,
+   "art": [
+    {
+     "f": "bag",
+     "s": 0.495,
+     "x": 0.35,
+     "y": 0.5,
+     "args": {
+      "color": [
+       255,
+       252,
+       244,
+       255
+      ]
+     }
+    },
+    {
+     "f": "chart_down",
+     "s": 0.36,
+     "x": 0.73,
+     "y": 0.66
+    }
+   ],
+   "sub": "It cost one store 25% of its sales",
+   "series": "PRICE TRICKS · DAY 5"
+  },
+  "beats": [
+   {
+    "bg": "red",
+    "head": "Shoppers HATED this store's honest prices.",
+    "hl": [
+     "HATED"
+    ],
+    "art": [
+     {
+      "f": "bag",
+      "s": 0.495,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "color": [
+        255,
+        252,
+        244,
+        255
+       ]
+      }
+     }
+    ],
+    "sub": "JCPenney, 2012",
+    "sticker": "?!",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 5"
+   },
+   {
+    "bg": "cream",
+    "head": "No coupons. No fake sales.",
+    "art": [
+     {
+      "f": "scissors_coupon",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Just low prices, every day.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 5"
+   },
+   {
+    "bg": "ink",
+    "head": "Sales fell 25% in ONE year.",
+    "art": [
+     {
+      "f": "chart_down",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Revenue: $17.3B to $13.0B",
+    "dur": 5,
+    "hl": [
+     "25%"
+    ],
+    "series": "PRICE TRICKS · DAY 5"
+   },
+   {
+    "bg": "yellow",
+    "head": "The CEO was OUT in 16 months.",
+    "hl": [
+     "OUT"
+    ],
+    "art": [
+     {
+      "f": "exit_door",
+      "s": 0.495,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 5"
+   },
+   {
+    "bg": "cream",
+    "head": "We don't want low prices…",
+    "art": [
+     {
+      "f": "sale_sign",
+      "s": 0.495,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "dur": 4,
+    "series": "PRICE TRICKS · DAY 5"
+   },
+   {
+    "bg": "red",
+    "head": "…we want to feel like we WON.",
+    "hl": [
+     "WON."
+    ],
+    "art": [
+     {
+      "f": "trophy",
+      "s": 0.495,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 5"
+   },
+   {
+    "bg": "ink",
+    "end": "Next: 9 in 10 Black Friday “deals” aren't.",
+    "src": "Source: MPR News / AP, April 2013",
+    "series": "PRICE TRICKS · DAY 5"
+   }
+  ]
+ },
+ {
+  "slug": "black-friday-tiktok",
+  "cover": {
+   "bg": "red",
+   "head": "9 in 10 Black Friday “deals” AREN'T.",
+   "hl": [
+    "AREN'T."
+   ],
+   "hsize": 150,
+   "art": [
+    {
+     "f": "sale_sign",
+     "args": {
+      "txt": "-50%"
+     },
+     "s": 0.54,
+     "x": 0.42,
+     "y": 0.5
+    }
+   ],
+   "sub": "Check this before you buy",
+   "sticker": "?!",
+   "series": "PRICE TRICKS · DAY 6"
+  },
+  "beats": [
+   {
+    "bg": "red",
+    "head": "9 in 10 Black Friday “deals” AREN'T.",
+    "hl": [
+     "AREN'T."
+    ],
+    "art": [
+     {
+      "f": "sale_sign",
+      "args": {
+       "txt": "-50%"
+      },
+      "s": 0.54,
+      "x": 0.44,
+      "y": 0.5
+     }
+    ],
+    "sub": "A UK consumer group tracked the prices.",
+    "sticker": "?!",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 6"
+   },
+   {
+    "bg": "ink",
+    "head": "Same price or CHEAPER on other days of the year.",
+    "hl": [
+     "CHEAPER"
+    ],
+    "art": [
+     {
+      "f": "calendar",
+      "args": {
+       "top": "ANY",
+       "big": "DAY"
+      },
+      "s": 0.45,
+      "x": 0.44,
+      "y": 0.5
+     }
+    ],
+    "sub": "Which? price-tracking analysis",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 6"
+   },
+   {
+    "bg": "cream",
+    "head": "The trick: a fake “was” price.",
+    "hl": [
+     "fake"
+    ],
+    "art": [
+     {
+      "f": "receipt",
+      "args": {
+       "rows": [
+        [
+         "WAS",
+         "$199"
+        ],
+        [
+         "NOW",
+         "$99"
+        ]
+       ],
+       "total": [
+        "SAVE",
+        "50%"
+       ],
+       "title": "BLACK FRIDAY"
+      },
+      "s": 0.54,
+      "x": 0.44,
+      "y": 0.5
+     }
+    ],
+    "sub": "Example prices.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 6"
+   },
+   {
+    "bg": "yellow",
+    "head": "It sold for $99 most of the YEAR.",
+    "hl": [
+     "YEAR."
+    ],
+    "art": [
+     {
+      "f": "calendar",
+      "args": {
+       "top": "ALL YEAR",
+       "big": "$99"
+      },
+      "s": 0.45,
+      "x": 0.44,
+      "y": 0.5
+     }
+    ],
+    "sub": "The “50% off” was never real.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 6"
+   },
+   {
+    "bg": "ink",
+    "head": "Fix: check the price HISTORY first.",
+    "hl": [
+     "HISTORY"
+    ],
+    "art": [
+     {
+      "f": "magnifier",
+      "args": {
+       "txt": "HISTORY"
+      },
+      "s": 0.468,
+      "x": 0.44,
+      "y": 0.5
+     }
+    ],
+    "sub": "Free price trackers show what it cost last month.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 6"
+   },
+   {
+    "bg": "red",
+    "head": "Not a deal in March? Not a deal in November.",
+    "hl": [
+     "Not"
+    ],
+    "art": [
+     {
+      "f": "stamp",
+      "args": {
+       "txt": "NOPE"
+      },
+      "s": 0.495,
+      "x": 0.44,
+      "y": 0.5
+     }
+    ],
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 6"
+   },
+   {
+    "bg": "ink",
+    "end": "Next: the $89 hotel that isn't $89.",
+    "src": "Source: Which? Black Friday price analysis",
+    "series": "PRICE TRICKS · DAY 6"
+   }
+  ],
+  "date": "day-06"
+ },
+ {
+  "slug": "junk-fees-tiktok",
+  "date": "day-07",
+  "cover": {
+   "bg": "ink",
+   "head": "This $89 hotel ISN'T $89.",
+   "hl": [
+    "ISN'T"
+   ],
+   "hsize": 160,
+   "art": [
+    {
+     "f": "hotel_bell",
+     "s": 0.54,
+     "x": 0.39,
+     "y": 0.5
+    },
+    {
+     "f": "price_tag",
+     "args": {
+      "txt": "$89"
+     },
+     "s": 0.396,
+     "x": 0.71,
+     "y": 0.28
+    }
+   ],
+   "sub": "Watch what happens at checkout",
+   "series": "PRICE TRICKS · DAY 7"
+  },
+  "beats": [
+   {
+    "bg": "ink",
+    "head": "This $89 hotel ISN'T $89.",
+    "hl": [
+     "ISN'T"
+    ],
+    "art": [
+     {
+      "f": "hotel_bell",
+      "s": 0.54,
+      "x": 0.39,
+      "y": 0.52
+     },
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$89"
+      },
+      "s": 0.396,
+      "x": 0.71,
+      "y": 0.26,
+      "delay": 0.4
+     }
+    ],
+    "sub": "Example prices.",
+    "sticker": "?!",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 7"
+   },
+   {
+    "bg": "cream",
+    "head": "Checkout:",
+    "art": [
+     {
+      "f": "receipt",
+      "s": 0.612,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 7"
+   },
+   {
+    "bg": "red",
+    "head": "More than you clicked:",
+    "count": {
+     "from": 0,
+     "to": 39,
+     "fmt": "+{:.0f}%",
+     "size": 340,
+     "y": 0.45,
+     "dur": 1.3
+    },
+    "sub": "It's called drip pricing.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 7"
+   },
+   {
+    "bg": "yellow",
+    "head": "Since May 2025, the US says: show the TOTAL.",
+    "hl": [
+     "TOTAL."
+    ],
+    "art": [
+     {
+      "f": "stamp",
+      "args": {
+       "txt": "TOTAL",
+       "color": [
+        24,
+        22,
+        20,
+        255
+       ]
+      },
+      "s": 0.594,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Tickets and short-term stays",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 7"
+   },
+   {
+    "bg": "ink",
+    "head": "StubHub paid $10M over it.",
+    "hl": [
+     "$10M"
+    ],
+    "art": [
+     {
+      "f": "ticket",
+      "args": {
+       "txt": "$10M"
+      },
+      "s": 0.63,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "FTC settlement, April 2026",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 7"
+   },
+   {
+    "bg": "cream",
+    "head": "Everywhere else? Click to the LAST screen.",
+    "hl": [
+     "LAST"
+    ],
+    "art": [
+     {
+      "f": "arrow",
+      "s": 0.45,
+      "x": 0.47,
+      "y": 0.5,
+      "anim": "slide",
+      "from": -0.6
+     }
+    ],
+    "sub": "Then compare.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 7"
+   },
+   {
+    "bg": "ink",
+    "end": "Next: Amazon's cancel button had a code name.",
+    "src": "Sources: FTC fees rule (TechCrunch) · FTC v. StubHub",
+    "series": "PRICE TRICKS · DAY 7"
+   }
+  ]
+ },
+ {
+  "slug": "amazon-iliad-tiktok",
+  "date": "day-08",
+  "cover": {
+   "bg": "ink",
+   "head": "Amazon named THIS after a war.",
+   "hl": [
+    "THIS"
+   ],
+   "hsize": 150,
+   "art": [
+    {
+     "f": "cancel_button",
+     "s": 0.648,
+     "x": 0.47,
+     "y": 0.45
+    }
+   ],
+   "sub": "The FTC made it pay $2.5B",
+   "sticker": "?!",
+   "series": "PRICE TRICKS · DAY 8"
+  },
+  "beats": [
+   {
+    "bg": "ink",
+    "head": "Amazon gave its CANCEL flow a code name.",
+    "hl": [
+     "CANCEL"
+    ],
+    "art": [
+     {
+      "f": "cancel_button",
+      "s": 0.648,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sticker": "?!",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 8"
+   },
+   {
+    "bg": "red",
+    "head": "“ILIAD.”",
+    "hsize": 230,
+    "art": [
+     {
+      "f": "maze",
+      "s": 0.522,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "As in the Greek epic about a 10-year war.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 8"
+   },
+   {
+    "bg": "cream",
+    "head": "Easy to join…",
+    "hl": [
+     "Easy"
+    ],
+    "art": [
+     {
+      "f": "box",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "FTC: checkout signed people up for Prime",
+    "dur": 4,
+    "series": "PRICE TRICKS · DAY 8"
+   },
+   {
+    "bg": "ink",
+    "head": "…HARD to leave.",
+    "hl": [
+     "HARD"
+    ],
+    "art": [
+     {
+      "f": "maze",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "FTC: canceling was built to be confusing",
+    "dur": 4,
+    "series": "PRICE TRICKS · DAY 8"
+   },
+   {
+    "bg": "yellow",
+    "head": "Then the bill came.",
+    "art": [
+     {
+      "f": "gavel",
+      "s": 0.45,
+      "x": 0.47,
+      "y": 0.66
+     }
+    ],
+    "count": {
+     "from": 0,
+     "to": 2.5,
+     "fmt": "${:.1f}B",
+     "size": 260,
+     "y": 0.18,
+     "dur": 1.3
+    },
+    "sub": "FTC settlement, September 2025",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 8"
+   },
+   {
+    "bg": "cream",
+    "head": "$1.5B goes back to customers.",
+    "hl": [
+     "$1.5B"
+    ],
+    "art": [
+     {
+      "f": "money_stack",
+      "args": {
+       "label": "$1.5B"
+      },
+      "s": 0.504,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Amazon admitted no wrongdoing.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 8"
+   },
+   {
+    "bg": "red",
+    "head": "Your move TONIGHT:",
+    "hl": [
+     "TONIGHT:"
+    ],
+    "art": [
+     {
+      "f": "card_statement",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Find one subscription you forgot.",
+    "dur": 5,
+    "series": "PRICE TRICKS · DAY 8"
+   },
+   {
+    "bg": "ink",
+    "end": "Follow for a new price trick every day.",
+    "src": "Source: FTC settlement, Sept 25 2025 (ABC News)",
+    "series": "PRICE TRICKS · DAY 8"
+   }
+  ]
+ }
+]

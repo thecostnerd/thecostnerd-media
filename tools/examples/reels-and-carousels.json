@@ -1,0 +1,1139 @@
+[
+ {
+  "slug": "costco-hot-dog-reel",
+  "date": "2026-11-12",
+  "cover": {
+   "bg": "red",
+   "head": "$1.50 SINCE 1985?!",
+   "hl": [
+    "$1.50"
+   ],
+   "hsize": 170,
+   "art": [
+    {
+     "f": "hotdog",
+     "s": 0.62,
+     "x": 0.42,
+     "y": 0.42
+    },
+    {
+     "f": "soda_cup",
+     "s": 0.42,
+     "x": 0.76,
+     "y": 0.62
+    },
+    {
+     "f": "price_tag",
+     "args": {
+      "txt": "$1.50"
+     },
+     "s": 0.5,
+     "x": 0.3,
+     "y": 0.8
+    }
+   ],
+   "sub": "Why Costco will never raise it",
+   "sticker": "?!"
+  },
+  "beats": [
+   {
+    "bg": "red",
+    "head": "Costco WON'T raise this price.",
+    "hl": [
+     "WON'T"
+    ],
+    "art": [
+     {
+      "f": "hotdog",
+      "s": 0.62,
+      "x": 0.42,
+      "y": 0.42
+     },
+     {
+      "f": "soda_cup",
+      "s": 0.42,
+      "x": 0.78,
+      "y": 0.6
+     },
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$1.50"
+      },
+      "s": 0.5,
+      "x": 0.3,
+      "y": 0.82,
+      "delay": 0.5
+     }
+    ],
+    "sub": "Hot dog + soda. $1.50 since 1985.",
+    "sticker": "?!",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "head": "Inflation says it should cost…",
+    "count": {
+     "from": 1.5,
+     "to": 4.7,
+     "fmt": "${:.2f}",
+     "size": 330,
+     "y": 0.45,
+     "dur": 1.6
+    },
+    "sub": "$1.50 in 1985 ≈ $4.70 today (US BLS CPI)",
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "“The hot dog price will not change as long as I'm around.”",
+    "hsize": 104,
+    "hmax": 520,
+    "art": [
+     {
+      "f": "hotdog",
+      "s": 0.5,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Costco CEO Ron Vachris, March 2026",
+    "dur": 6
+   },
+   {
+    "bg": "yellow",
+    "head": "So how does Costco win?",
+    "art": [
+     {
+      "f": "question",
+      "s": 0.55,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "dur": 4
+   },
+   {
+    "bg": "red",
+    "head": "The hot dog is BAIT.",
+    "hl": [
+     "BAIT."
+    ],
+    "art": [
+     {
+      "f": "hotdog",
+      "s": 0.42,
+      "x": 0.25,
+      "y": 0.45
+     },
+     {
+      "f": "arrow",
+      "s": 0.26,
+      "x": 0.52,
+      "y": 0.45,
+      "delay": 0.4
+     },
+     {
+      "f": "member_card",
+      "s": 0.44,
+      "x": 0.78,
+      "y": 0.45,
+      "delay": 0.6
+     }
+    ],
+    "sub": "It sells the membership.",
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "Fees = about ⅔ of profit.",
+    "hl": [
+     "⅔"
+    ],
+    "art": [
+     {
+      "f": "pie",
+      "args": {
+       "frac": 0.657
+      },
+      "s": 0.58,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "$5.3B in fees vs $8.1B profit, FY2025",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "head": "Renewing? Do the math FIRST.",
+    "hl": [
+     "FIRST."
+    ],
+    "art": [
+     {
+      "f": "member_card",
+      "s": 0.55,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Saved more than the fee? Keep it.",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "end": "Save this for renewal day.",
+    "src": "Sources: BLS CPI · Fortune · Costco FY2025"
+   }
+  ]
+ },
+ {
+  "slug": "amazon-iliad-reel",
+  "date": "2026-11-14",
+  "cover": {
+   "bg": "ink",
+   "head": "Amazon named THIS after a war.",
+   "hl": [
+    "THIS"
+   ],
+   "hsize": 150,
+   "art": [
+    {
+     "f": "cancel_button",
+     "s": 0.72,
+     "x": 0.5,
+     "y": 0.45
+    }
+   ],
+   "sub": "The FTC made it pay $2.5B",
+   "sticker": "?!"
+  },
+  "beats": [
+   {
+    "bg": "ink",
+    "head": "Amazon gave its CANCEL flow a code name.",
+    "hl": [
+     "CANCEL"
+    ],
+    "art": [
+     {
+      "f": "cancel_button",
+      "s": 0.72,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sticker": "?!",
+    "dur": 5
+   },
+   {
+    "bg": "red",
+    "head": "“ILIAD.”",
+    "hsize": 230,
+    "art": [
+     {
+      "f": "maze",
+      "s": 0.58,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "As in the Greek epic about a 10-year war.",
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "Easy to join…",
+    "hl": [
+     "Easy"
+    ],
+    "art": [
+     {
+      "f": "box",
+      "s": 0.6,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "FTC: checkout signed people up for Prime",
+    "dur": 4
+   },
+   {
+    "bg": "ink",
+    "head": "…HARD to leave.",
+    "hl": [
+     "HARD"
+    ],
+    "art": [
+     {
+      "f": "maze",
+      "s": 0.62,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "FTC: canceling was built to be confusing",
+    "dur": 4
+   },
+   {
+    "bg": "yellow",
+    "head": "Then the bill came.",
+    "art": [
+     {
+      "f": "gavel",
+      "s": 0.5,
+      "x": 0.5,
+      "y": 0.66
+     }
+    ],
+    "count": {
+     "from": 0,
+     "to": 2.5,
+     "fmt": "${:.1f}B",
+     "size": 260,
+     "y": 0.18,
+     "dur": 1.3
+    },
+    "sub": "FTC settlement, September 2025",
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "$1.5B goes back to customers.",
+    "hl": [
+     "$1.5B"
+    ],
+    "art": [
+     {
+      "f": "money_stack",
+      "args": {
+       "label": "$1.5B"
+      },
+      "s": 0.56,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Amazon admitted no wrongdoing.",
+    "dur": 5
+   },
+   {
+    "bg": "red",
+    "head": "Your move TONIGHT:",
+    "hl": [
+     "TONIGHT:"
+    ],
+    "art": [
+     {
+      "f": "card_statement",
+      "s": 0.62,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Find one subscription you forgot.",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "end": "Send this to someone with 6 streaming apps.",
+    "src": "Source: FTC settlement, Sept 25 2025 (ABC News)"
+   }
+  ]
+ },
+ {
+  "slug": "price-ending-9-reel",
+  "date": "2026-11-15",
+  "cover": {
+   "bg": "cream",
+   "head": "Why $49 BEATS $44",
+   "hl": [
+    "BEATS"
+   ],
+   "hsize": 170,
+   "art": [
+    {
+     "f": "price_tag",
+     "args": {
+      "txt": "$44",
+      "rot": 8
+     },
+     "s": 0.46,
+     "x": 0.27,
+     "y": 0.35
+    },
+    {
+     "f": "price_tag",
+     "args": {
+      "txt": "$49",
+      "color": [
+       216,
+       38,
+       30,
+       255
+      ],
+      "tcol": [
+       255,
+       250,
+       240,
+       255
+      ]
+     },
+     "s": 0.56,
+     "x": 0.66,
+     "y": 0.6
+    },
+    {
+     "f": "trophy",
+     "s": 0.3,
+     "x": 0.8,
+     "y": 0.18
+    }
+   ],
+   "sub": "Same item. Higher price. More sales."
+  },
+  "beats": [
+   {
+    "bg": "cream",
+    "head": "Same item. 3 prices. GUESS the winner.",
+    "hl": [
+     "GUESS"
+    ],
+    "art": [
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$44",
+       "rot": 6
+      },
+      "s": 0.4,
+      "x": 0.25,
+      "y": 0.4
+     },
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$49",
+       "rot": -6
+      },
+      "s": 0.4,
+      "x": 0.72,
+      "y": 0.4,
+      "delay": 0.3
+     },
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$54",
+       "rot": 4
+      },
+      "s": 0.4,
+      "x": 0.48,
+      "y": 0.78,
+      "delay": 0.45
+     }
+    ],
+    "sticker": "?",
+    "sub": "Comment your guess ↓",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "head": "Cheapest wins, right?",
+    "art": [
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$44"
+      },
+      "s": 0.5,
+      "x": 0.5,
+      "y": 0.32
+     },
+     {
+      "f": "stamp",
+      "args": {
+       "txt": "NOPE"
+      },
+      "s": 0.55,
+      "x": 0.5,
+      "y": 0.78,
+      "delay": 0.9
+     }
+    ],
+    "dur": 4
+   },
+   {
+    "bg": "red",
+    "head": "$49 beat BOTH.",
+    "hl": [
+     "BOTH."
+    ],
+    "art": [
+     {
+      "f": "trophy",
+      "s": 0.42,
+      "x": 0.5,
+      "y": 0.32
+     },
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$49",
+       "color": [
+        247,
+        196,
+        49,
+        255
+       ]
+      },
+      "s": 0.52,
+      "x": 0.5,
+      "y": 0.8,
+      "delay": 0.4
+     }
+    ],
+    "sub": "$44 and $54 sold about the same.",
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "Your brain reads 9 as SALE.",
+    "hl": [
+     "SALE."
+    ],
+    "art": [
+     {
+      "f": "brain",
+      "s": 0.48,
+      "x": 0.3,
+      "y": 0.5
+     },
+     {
+      "f": "sale_sign",
+      "s": 0.44,
+      "x": 0.74,
+      "y": 0.5,
+      "delay": 0.45
+     }
+    ],
+    "sub": "Even when nothing is on sale.",
+    "dur": 5
+   },
+   {
+    "bg": "yellow",
+    "head": "Fix: round it UP.",
+    "hl": [
+     "UP."
+    ],
+    "art": [
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$50",
+       "color": [
+        255,
+        252,
+        244,
+        255
+       ]
+      },
+      "s": 0.6,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "$49 is $50. $19.99 is $20.",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "end": "Save this before your next sale-season scroll.",
+    "src": "Source: Anderson & Simester (Chicago Booth Review)"
+   }
+  ]
+ },
+ {
+  "slug": "junk-fees-reel",
+  "date": "2026-11-17",
+  "cover": {
+   "bg": "ink",
+   "head": "This $89 hotel ISN'T $89.",
+   "hl": [
+    "ISN'T"
+   ],
+   "hsize": 160,
+   "art": [
+    {
+     "f": "hotel_bell",
+     "s": 0.6,
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "f": "price_tag",
+     "args": {
+      "txt": "$89"
+     },
+     "s": 0.44,
+     "x": 0.74,
+     "y": 0.28
+    }
+   ],
+   "sub": "Watch what happens at checkout"
+  },
+  "beats": [
+   {
+    "bg": "ink",
+    "head": "This $89 hotel ISN'T $89.",
+    "hl": [
+     "ISN'T"
+    ],
+    "art": [
+     {
+      "f": "hotel_bell",
+      "s": 0.6,
+      "x": 0.42,
+      "y": 0.52
+     },
+     {
+      "f": "price_tag",
+      "args": {
+       "txt": "$89"
+      },
+      "s": 0.44,
+      "x": 0.74,
+      "y": 0.26,
+      "delay": 0.4
+     }
+    ],
+    "sub": "Example prices.",
+    "sticker": "?!",
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "Checkout:",
+    "art": [
+     {
+      "f": "receipt",
+      "s": 0.68,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "dur": 5
+   },
+   {
+    "bg": "red",
+    "head": "More than you clicked:",
+    "count": {
+     "from": 0,
+     "to": 39,
+     "fmt": "+{:.0f}%",
+     "size": 340,
+     "y": 0.45,
+     "dur": 1.3
+    },
+    "sub": "It's called drip pricing.",
+    "dur": 5
+   },
+   {
+    "bg": "yellow",
+    "head": "Since May 2025, the US says: show the TOTAL.",
+    "hl": [
+     "TOTAL."
+    ],
+    "art": [
+     {
+      "f": "stamp",
+      "args": {
+       "txt": "TOTAL",
+       "color": [
+        24,
+        22,
+        20,
+        255
+       ]
+      },
+      "s": 0.66,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Tickets and short-term stays",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "head": "StubHub paid $10M over it.",
+    "hl": [
+     "$10M"
+    ],
+    "art": [
+     {
+      "f": "ticket",
+      "args": {
+       "txt": "$10M"
+      },
+      "s": 0.7,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "FTC settlement, April 2026",
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "Everywhere else? Click to the LAST screen.",
+    "hl": [
+     "LAST"
+    ],
+    "art": [
+     {
+      "f": "arrow",
+      "s": 0.5,
+      "x": 0.5,
+      "y": 0.5,
+      "anim": "slide",
+      "from": -0.6
+     }
+    ],
+    "sub": "Then compare.",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "end": "Send this to whoever books the next trip.",
+    "src": "Sources: FTC fees rule (TechCrunch) · FTC v. StubHub"
+   }
+  ]
+ },
+ {
+  "slug": "jcpenney-reel",
+  "date": "2026-11-18",
+  "cover": {
+   "bg": "red",
+   "head": "Shoppers HATED honest prices.",
+   "hl": [
+    "HATED"
+   ],
+   "hsize": 160,
+   "art": [
+    {
+     "f": "bag",
+     "s": 0.55,
+     "x": 0.38,
+     "y": 0.5,
+     "args": {
+      "color": [
+       255,
+       252,
+       244,
+       255
+      ]
+     }
+    },
+    {
+     "f": "chart_down",
+     "s": 0.4,
+     "x": 0.76,
+     "y": 0.66
+    }
+   ],
+   "sub": "It cost one store 25% of its sales"
+  },
+  "beats": [
+   {
+    "bg": "red",
+    "head": "Shoppers HATED this store's honest prices.",
+    "hl": [
+     "HATED"
+    ],
+    "art": [
+     {
+      "f": "bag",
+      "s": 0.55,
+      "x": 0.5,
+      "y": 0.5,
+      "args": {
+       "color": [
+        255,
+        252,
+        244,
+        255
+       ]
+      }
+     }
+    ],
+    "sub": "JCPenney, 2012",
+    "sticker": "?!",
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "No coupons. No fake sales.",
+    "art": [
+     {
+      "f": "scissors_coupon",
+      "s": 0.62,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Just low prices, every day.",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "head": "Sales fell 25% in ONE year.",
+    "art": [
+     {
+      "f": "chart_down",
+      "s": 0.62,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Revenue: $17.3B to $13.0B",
+    "dur": 5,
+    "hl": [
+     "25%"
+    ]
+   },
+   {
+    "bg": "yellow",
+    "head": "The CEO was OUT in 16 months.",
+    "hl": [
+     "OUT"
+    ],
+    "art": [
+     {
+      "f": "exit_door",
+      "s": 0.55,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "We don't want low prices…",
+    "art": [
+     {
+      "f": "sale_sign",
+      "s": 0.55,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "dur": 4
+   },
+   {
+    "bg": "red",
+    "head": "…we want to feel like we WON.",
+    "hl": [
+     "WON."
+    ],
+    "art": [
+     {
+      "f": "trophy",
+      "s": 0.55,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "end": "Follow for the tricks behind every sale.",
+    "src": "Source: MPR News / AP, April 2013"
+   }
+  ]
+ },
+ {
+  "slug": "coke-nickel",
+  "date": "2026-11-13",
+  "slides": [
+   {
+    "bg": "red",
+    "head": "A Coke cost 5¢ for 70 YEARS.",
+    "hl": [
+     "70",
+     "YEARS."
+    ],
+    "hsize": 128,
+    "art": [
+     {
+      "f": "bottle",
+      "s": 0.62,
+      "x": 0.38,
+      "y": 0.5
+     },
+     {
+      "f": "coin",
+      "s": 0.38,
+      "x": 0.72,
+      "y": 0.68
+     }
+    ],
+    "sub": "1886 to around 1959. Here's how →",
+    "sticker": "?!"
+   },
+   {
+    "bg": "cream",
+    "head": "Reason 1: a contract with no END.",
+    "hl": [
+     "END."
+    ],
+    "art": [
+     {
+      "f": "scroll_paper",
+      "s": 0.5,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "1899: syrup sold to bottlers at a fixed price, forever."
+   },
+   {
+    "bg": "ink",
+    "head": "Reason 2: the price was on EVERY ad.",
+    "hl": [
+     "EVERY"
+    ],
+    "art": [
+     {
+      "f": "billboard",
+      "s": 0.55,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "“Drink Coca-Cola, 5 Cents.” Hard to take back."
+   },
+   {
+    "bg": "yellow",
+    "head": "Reason 3: machines took NICKELS only.",
+    "hl": [
+     "NICKELS"
+    ],
+    "art": [
+     {
+      "f": "vending",
+      "s": 0.52,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "A dime was too big a jump."
+   },
+   {
+    "bg": "cream",
+    "head": "So they asked for a 7.5¢ COIN.",
+    "hl": [
+     "COIN."
+    ],
+    "art": [
+     {
+      "f": "coin",
+      "args": {
+       "txt": "7½¢"
+      },
+      "s": 0.5,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Its boss reportedly asked President Eisenhower. No luck."
+   },
+   {
+    "bg": "ink",
+    "head": "It finally ended around 1959.",
+    "art": [
+     {
+      "f": "calendar",
+      "args": {
+       "top": "THE END",
+       "big": "1959"
+      },
+      "s": 0.5,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Rising costs won."
+   },
+   {
+    "bg": "red",
+    "head": "A famous price is a PROMISE.",
+    "hl": [
+     "PROMISE."
+    ],
+    "art": [
+     {
+      "f": "hotdog",
+      "s": 0.52,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Costco's $1.50 hot dog plays the same game."
+   },
+   {
+    "bg": "ink",
+    "end": "Send this to whoever says “things used to be cheaper.”",
+    "src": "Source: NPR Planet Money (2012)"
+   }
+  ]
+ },
+ {
+  "slug": "receipt-shrinkflation",
+  "date": "2026-11-16",
+  "slides": [
+   {
+    "bg": "yellow",
+    "head": "Your snacks are SHRINKING.",
+    "hl": [
+     "SHRINKING."
+    ],
+    "hsize": 128,
+    "art": [
+     {
+      "f": "chips_bag",
+      "s": 0.62,
+      "x": 0.36,
+      "y": 0.5
+     },
+     {
+      "f": "chips_bag",
+      "args": {
+       "scale": 0.62
+      },
+      "s": 0.62,
+      "x": 0.72,
+      "y": 0.58
+     }
+    ],
+    "sub": "Receipt of the Week: the real numbers →",
+    "sticker": "?!"
+   },
+   {
+    "bg": "cream",
+    "head": "UK: 206 products SHRANK.",
+    "hl": [
+     "SHRANK."
+    ],
+    "art": [
+     {
+      "f": "chips_bag",
+      "args": {
+       "scale": 0.8
+      },
+      "s": 0.55,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "vs 79 that grew, Sept 2015 to June 2017 (ONS)"
+   },
+   {
+    "bg": "ink",
+    "head": "US: under 5% of items.",
+    "hl": [
+     "5%"
+    ],
+    "art": [
+     {
+      "f": "magnifier",
+      "args": {
+       "txt": "<5%"
+      },
+      "s": 0.55,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Rare overall, says the US GAO (2025)"
+   },
+   {
+    "bg": "red",
+    "head": "But when it hits: up to +32%.",
+    "hl": [
+     "+32%."
+    ],
+    "art": [
+     {
+      "f": "toilet_roll",
+      "s": 0.48,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Per-unit price jump: paper towels +12%, coffee +32% (GAO)"
+   },
+   {
+    "bg": "cream",
+    "head": "Same price. LESS inside.",
+    "hl": [
+     "LESS"
+    ],
+    "art": [
+     {
+      "f": "receipt",
+      "args": {
+       "rows": [
+        [
+         "Before 12 oz",
+         "$9.99"
+        ],
+        [
+         "After  10 oz",
+         "$9.99"
+        ]
+       ],
+       "total": [
+        "PER OZ",
+        "+20%"
+       ],
+       "title": "COFFEE"
+      },
+      "s": 0.62,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Example prices for illustration"
+   },
+   {
+    "bg": "ink",
+    "head": "Check the NET WEIGHT. Not the price.",
+    "hl": [
+     "NET",
+     "WEIGHT."
+    ],
+    "art": [
+     {
+      "f": "magnifier",
+      "args": {
+       "txt": "NET WT"
+      },
+      "s": 0.52,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Full breakdown on YouTube. Link in bio."
+   },
+   {
+    "bg": "red",
+    "end": "Spot a shrink? Comment the product. Best finds become episodes.",
+    "src": "Sources: UK ONS (2019) · US GAO (2025)"
+   }
+  ]
+ }
+]
