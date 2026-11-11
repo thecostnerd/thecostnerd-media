@@ -23,3 +23,6 @@ Matches Episodes 1–2: dark charcoal stage, small red mono kicker ("TRICK 1 OF 
 
 ## Writing narration for Kokoro
 Each JSON line = one natural spoken beat of 1–3 related sentences (Kokoro resets intonation per line). No one-word lines, no "?" inside names (write "Which", show "Which?" in subtitles via the SRT dict). Gaps are added by the renderer.
+
+## community.py: Community post images (1080x1080)
+House style: dark grid, two-line headline with one yellow word, one visual comparison, red footer bar with the question + Cent Specs. Copy `post1()`/`post2()` per episode: Community 1 = poll before the main video; Community 2 = poll answer + discussion after it.
