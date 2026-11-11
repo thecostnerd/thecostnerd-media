@@ -16,3 +16,10 @@ To add Kokoro narration: render, then mux the narration WAV over the video with 
 `python3 longform.py <episode.py> <voice_dir> <out_dir> h|v` renders a narration-timed explainer: `h` = 1920x1080 long-form with chapter stings, music bed and a 14 s end-screen hold; `v` = 1080x1920 Short with the finished hook on frame 1. It also writes `<name>.srt` (digits, £/$ and % restored by `srtnum.py`; exact per-line fixes go in the episode file's `SRT` dict) and `<name>-meta.json` with chapter timestamps. Episode files define `LINES` (the Kokoro JSON), `SCENES`, optional `CHAPTERS`, `END`, `SRT`. Example: `examples/bonus-black-friday/`. Preview every scene first with a contact sheet; QC frames after rendering (counters, overlaps).
 
 `thumbs.py`: thumbnail colourways `specs` (Cent Specs dark), `paper`, `red`, `yellow`. Highlighted text is dark on yellow, cream on red.
+
+## motion.py: the long-form house style (use this, not longform.py, for YouTube episodes)
+
+Matches Episodes 1–2: dark charcoal stage, small red mono kicker ("TRICK 1 OF 3" + grey subline), one hero graphic per beat that builds in on the narration (dots fill, bars grow, rows slide in, line charts draw, tags swing, stamps slam), mono source line bottom-left, "EXAMPLE PRICES" bottom-right. Minimal text. `python3 motion.py <episode.py> <voice_dir> <out_dir> h|v`. Element cues: `at` = line index within the scene (fractions = position inside that line); `hit_at`, `sub_at`, `dur_at`, `delta_at` time a reveal to a later word. Rules: every scene shows its hero graphic within ~0.5 s (base appears first, the reveal waits for the words); preview with `mpreview.py`, check element cue words, then scan the render for empty-stage gaps. Example: `examples/bonus-black-friday/mo_*.py`.
+
+## Writing narration for Kokoro
+Each JSON line = one natural spoken beat of 1–3 related sentences (Kokoro resets intonation per line). No one-word lines, no "?" inside names (write "Which", show "Which?" in subtitles via the SRT dict). Gaps are added by the renderer.
