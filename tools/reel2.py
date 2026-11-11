@@ -55,7 +55,7 @@ def draw_rich(img, x, y, lines, font, size, fg, hl, hlwords, lh=1.04, center=Fal
                 d.rectangle([cx - 8, y + size * 0.12, cx + ww + 8, y + size * 1.02], fill=hl)
                 col = fg if hl != fg else fg
                 # text on marker: use bg-contrasting colour
-                col = (24, 22, 20) if hl in [(247, 196, 49)] else (255, 250, 240)
+                col = (24, 22, 20) if tuple(hl[:3]) in [(247, 196, 49), (255, 222, 60)] else (255, 250, 240)
                 d.text((cx, y), w, font=font, fill=col)
             else:
                 d.text((cx, y), w, font=font, fill=hl if is_hl else fg)

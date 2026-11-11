@@ -10,3 +10,9 @@ Renderers used to make the Instagram Reels, carousels and TikToks in `ig/`.
 
 Needs Python 3 with Pillow and NumPy, ffmpeg, Inter / Inter Display fonts (`/usr/share/fonts/opentype/inter/`) and DejaVu Sans Mono.
 To add Kokoro narration: render, then mux the narration WAV over the video with the music bed ducked to about -18 dB.
+
+## Long-form and Shorts from narration (added Nov 11, 2026)
+
+`python3 longform.py <episode.py> <voice_dir> <out_dir> h|v` renders a narration-timed explainer: `h` = 1920x1080 long-form with chapter stings, music bed and a 14 s end-screen hold; `v` = 1080x1920 Short with the finished hook on frame 1. It also writes `<name>.srt` (digits, £/$ and % restored by `srtnum.py`; exact per-line fixes go in the episode file's `SRT` dict) and `<name>-meta.json` with chapter timestamps. Episode files define `LINES` (the Kokoro JSON), `SCENES`, optional `CHAPTERS`, `END`, `SRT`. Example: `examples/bonus-black-friday/`. Preview every scene first with a contact sheet; QC frames after rendering (counters, overlaps).
+
+`thumbs.py`: thumbnail colourways `specs` (Cent Specs dark), `paper`, `red`, `yellow`. Highlighted text is dark on yellow, cream on red.

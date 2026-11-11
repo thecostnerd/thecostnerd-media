@@ -450,3 +450,119 @@ def left_digit(S=700, a=("$4", "9"), b=("$5", "0")):
 
 
 ART.update({"gas_sign": gas_sign, "catalog": catalog, "left_digit": left_digit})
+
+
+# ---------------- Black Friday episode objects ----------------
+
+def toothbrush(S=700, color=BLUE):
+    c = C(S)
+    c.rect(420, 330, 580, 900, color, r=70)
+    c.rect(440, 90, 560, 360, LIGHT, r=50)
+    for y in range(120, 300, 45):
+        c.d.rounded_rectangle(c.p(450, y, 550, y + 28), radius=c.w(10), fill=(120, 190, 240, 255))
+    c.ell(465, 520, 535, 590, LIGHT, ow=8, shadow=False)
+    c.line([(445, 700), (555, 700)], INK, 8)
+    return c.done()
+
+
+def tv(S=700, txt="58\"", sub=""):
+    c = C(S)
+    c.rect(80, 170, 920, 700, INK, r=24)
+    c.d.rounded_rectangle(c.p(115, 205, 885, 665), radius=c.w(10), fill=(64, 110, 214, 255))
+    c.d.polygon([(c.p(115, 665)[0], c.p(115, 665)[1]), tuple(c.p(520, 205)), tuple(c.p(885, 205)), tuple(c.p(885, 300)), tuple(c.p(300, 665))], fill=(96, 140, 230, 255))
+    c.text(500, 420 if sub else 435, txt, 170, LIGHT)
+    if sub: c.text(500, 570, sub, 60, LIGHT, XB)
+    c.poly([(420, 700), (580, 700), (640, 820), (360, 820)], GREY)
+    return c.done()
+
+
+def stick_vacuum(S=700):
+    c = C(S)
+    c.line([(620, 110), (440, 760)], INK, 34); c.line([(620, 110), (440, 760)], GREY, 18)
+    c.rect(560, 90, 700, 360, RED, r=40)
+    c.rect(590, 140, 670, 300, (255, 140, 120, 255), r=30, shadow=False)
+    c.rect(270, 740, 600, 860, INK, r=30)
+    c.rect(290, 760, 580, 820, YEL, r=20, shadow=False)
+    return c.done()
+
+
+def robot_vacuum(S=700):
+    c = C(S)
+    c.ell(130, 260, 870, 820, (60, 60, 64, 255))
+    c.ell(220, 330, 780, 750, (90, 90, 96, 255), ow=8, shadow=False)
+    c.ell(430, 380, 570, 470, LIGHT, ow=8, shadow=False)
+    c.ell(470, 400, 530, 450, GREEN, ow=0, shadow=False)
+    c.line([(320, 640), (680, 640)], INK, 10)
+    return c.done()
+
+
+def earbuds(S=700):
+    c = C(S)
+    c.rect(250, 430, 750, 860, LIGHT, r=140)
+    c.line([(260, 560), (740, 560)], INK, 10)
+    c.ell(470, 690, 530, 750, GREEN, ow=0, shadow=False)
+    for x0 in (280, 560):
+        c.ell(x0, 130, x0 + 160, 290, LIGHT)
+        c.rect(x0 + 50, 260, x0 + 110, 420, LIGHT, r=30)
+    return c.done()
+
+
+def blender(S=700):
+    c = C(S)
+    c.poly([(300, 120), (700, 120), (650, 620), (350, 620)], (200, 230, 240, 255))
+    c.rect(280, 90, 720, 150, INK, r=20)
+    c.poly([(340, 420), (660, 420), (650, 610), (350, 610)], (240, 120, 160, 255), ow=0, shadow=False)
+    c.rect(300, 620, 700, 880, RED, r=40)
+    c.ell(440, 690, 560, 810, LIGHT, ow=10, shadow=False)
+    return c.done()
+
+
+def countdown(S=700, txt="02:59:41", label="DEAL ENDS IN"):
+    c = C(S)
+    c.rect(80, 300, 920, 720, INK, r=40)
+    c.text(500, 390, label, 62, YEL, XB)
+    c.text(500, 560, txt, 150, RED, MONOB)
+    return c.done()
+
+
+def price_history(S=700, pts=((0, 299), (1, 299), (2, 420), (3, 500), (4, 350)), labels=("MAY", "", "", "OCT", "BF"), hi=None, lo=None, cur="£", mark=None):
+    """Simple line chart of a price over time. mark = index to circle."""
+    c = C(S)
+    c.rect(60, 120, 940, 880, LIGHT, r=30)
+    vals = [p[1] for p in pts]; hi = hi or max(vals) * 1.08; lo = lo if lo is not None else min(vals) * 0.8
+    n = len(pts) - 1
+    X = lambda i: 210 + i * (580 / max(1, n)); Y = lambda v: 760 - (v - lo) / (hi - lo) * 520
+    c.line([(120, 770), (900, 770)], GREY, 8)
+    c.line([(X(i), Y(v)) for i, v in pts], RED, 18)
+    for k, (i, v) in enumerate(pts):
+        r = 22
+        c.d.ellipse(c.p(X(i) - r, Y(v) - r, X(i) + r, Y(v) + r), fill=YEL if k == mark else LIGHT, outline=INK, width=c.w(8))
+        c.text(X(i), Y(v) - 62, f"{cur}{v}", 54, INK)
+        if labels[k]: c.text(X(i), 825, labels[k], 46, GREY, XB)
+    if mark is not None:
+        i, v = pts[mark]; r = 70
+        c.d.ellipse(c.p(X(i) - r, Y(v) - r, X(i) + r, Y(v) + r), outline=RED, width=c.w(10))
+    return c.done()
+
+
+def days_strip(S=700, total=26, hit=(3,), label="FULL PRICE DAYS"):
+    """A grid of days with a few highlighted."""
+    c = C(S)
+    c.rect(60, 160, 940, 840, LIGHT, r=30)
+    c.text(500, 240, label, 56, INK, XB)
+    cols = 9; cell = 84; x0 = 500 - cols * cell / 2; y0 = 320
+    for k in range(total):
+        r_, q = divmod(k, cols); x = x0 + q * cell; y = y0 + r_ * cell
+        c.d.rounded_rectangle(c.p(x + 6, y + 6, x + cell - 6, y + cell - 6), radius=c.w(10), fill=RED if k in hit else (226, 220, 206, 255), outline=INK, width=c.w(5))
+    return c.done()
+
+
+def flag_card(S=700, txt="UK", color=BLUE):
+    c = C(S)
+    c.rect(170, 260, 830, 740, color, r=30)
+    c.text(500, 500, txt, 240, LIGHT)
+    return c.done()
+
+
+ART.update({"toothbrush": toothbrush, "tv": tv, "stick_vacuum": stick_vacuum, "robot_vacuum": robot_vacuum, "earbuds": earbuds,
+            "blender": blender, "countdown": countdown, "price_history": price_history, "days_strip": days_strip, "flag_card": flag_card})
