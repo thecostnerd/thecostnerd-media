@@ -238,7 +238,7 @@ def ticket(S=700, txt="$10M"):
 def stamp(S=700, txt="FINED", color=RED):
     c = C(S)
     c.d.rounded_rectangle(c.p(100, 330, 900, 670), radius=c.w(30), outline=color, width=c.w(36))
-    c.text(500, 500, txt, 220, color)
+    c.text(500, 500, txt, 220 if len(txt) <= 5 else 160, color)
     return c.done().rotate(-14, resample=Image.BICUBIC)
 
 
@@ -566,3 +566,74 @@ def flag_card(S=700, txt="UK", color=BLUE):
 
 ART.update({"toothbrush": toothbrush, "tv": tv, "stick_vacuum": stick_vacuum, "robot_vacuum": robot_vacuum, "earbuds": earbuds,
             "blender": blender, "countdown": countdown, "price_history": price_history, "days_strip": days_strip, "flag_card": flag_card})
+
+
+# ---------------- Pay later week (Nov 19-25, 2026) ----------------
+
+def phone(S=700, screen="PAY IN 4", sub="", color=YEL, scol=INK):
+    """Generic smartphone (no brand) showing one checkout button."""
+    c = C(S)
+    c.rect(270, 60, 730, 940, (62, 60, 66, 255), r=70)
+    c.d.rounded_rectangle(c.p(300, 130, 700, 860), radius=c.w(30), fill=LIGHT)
+    c.rect(440, 85, 560, 105, GREY, r=10, shadow=False)
+    c.text(500, 220, "CHECKOUT", 44, GREY, XB)
+    c.line([(340, 290), (660, 290)], (226, 220, 206, 255), 8)
+    c.rect(330, 520, 670, 680, color, r=60, ow=10)
+    size = 62 if len(screen) <= 8 else (50 if len(screen) <= 11 else 40)
+    c.text(500, 600, screen, size, scol)
+    if sub: c.text(500, 760, sub, 58, INK, XB)
+    return c.done()
+
+
+def layaway_card(S=700):
+    """A 1990s-style layaway ticket: pay first, pick up later."""
+    c = C(S)
+    c.rect(160, 90, 840, 900, LIGHT, r=10)
+    c.d.rectangle(c.p(166, 96, 834, 220), fill=BLUE)
+    c.text(500, 158, "LAYAWAY", 90, LIGHT)
+    for i in range(4):
+        y = 290 + i * 120
+        c.d.rectangle(c.p(230, y, 770, y + 90), outline=INK, width=c.w(6))
+        c.text(260, y + 45, f"PAYMENT {i + 1}", 44, INK, MONOB, anchor="lm")
+        if i < 3:
+            c.text(700, y + 45, "PAID", 46, GREEN, XB, anchor="mm")
+    c.text(500, 820, "PICK UP WHEN PAID", 46, RED, XB)
+    return c.done()
+
+
+def bars2(S=700, a="$45.6B", b="$6.7B", la="2021", lb="2022", ha=1.0, hb=0.15, ca=BLUE, cb=RED):
+    """Generic two-bar before/after chart."""
+    c = C(S)
+    c.rect(80, 80, 920, 920, LIGHT, r=30)
+    base, top = 800, 260
+    ya = base - (base - top) * ha; yb = base - (base - top) * hb
+    c.rect(200, ya, 420, base, ca, r=10, shadow=False)
+    c.rect(580, yb, 800, base, cb, r=10, shadow=False)
+    c.line([(140, base), (860, base)], INK, 14)
+    c.text(310, ya - 60, a, 72, INK); c.text(690, yb - 60, b, 72, RED)
+    c.text(310, 860, la, 52, GREY, XB); c.text(690, 860, lb, 52, GREY, XB)
+    return c.done()
+
+
+def pay4(S=700, labels=("WEEK 0", "WEEK 2", "WEEK 4", "WEEK 6"), amt="$75", hit=None):
+    """Four payments on a timeline. hit = index to highlight in red."""
+    c = C(S)
+    c.rect(60, 250, 940, 750, LIGHT, r=30)
+    c.line([(150, 470), (850, 470)], GREY, 12)
+    for i, l in enumerate(labels):
+        x = 170 + i * 220
+        col = RED if hit == i else YEL
+        c.ell(x - 80, 390, x + 80, 550, col, ow=10, shadow=False)
+        c.text(x, 470, amt, 44 if len(amt) <= 4 else 36, INK if col == YEL else LIGHT)
+        c.text(x, 640, l, 44, INK, XB)
+    return c.done()
+
+
+def big_button(S=700, txt="PAY IN 4", color=YEL):
+    c = C(S)
+    c.rect(90, 330, 910, 670, color, r=170)
+    c.text(500, 500, txt, 150 if len(txt) <= 8 else 110, INK)
+    return c.done()
+
+
+ART.update({"phone": phone, "layaway_card": layaway_card, "bars2": bars2, "pay4": pay4, "big_button": big_button})

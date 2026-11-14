@@ -1,0 +1,1367 @@
+[
+ {
+  "date": "tiktok",
+  "slug": "walmart-layaway-tiktok",
+  "cover": {
+   "bg": "cream",
+   "head": "Walmart KILLED layaway for this",
+   "hl": [
+    "KILLED"
+   ],
+   "hsize": 150,
+   "art": [
+    {
+     "f": "layaway_card",
+     "s": 0.5,
+     "x": 0.282,
+     "y": 0.5
+    },
+    {
+     "f": "phone",
+     "s": 0.5,
+     "x": 0.583,
+     "y": 0.5
+    }
+   ],
+   "sub": "Same payments. Flipped order.",
+   "sticker": "?!",
+   "series": "PAY LATER · DAY 1"
+  },
+  "beats": [
+   {
+    "bg": "cream",
+    "head": "Walmart KILLED layaway for this.",
+    "hl": [
+     "KILLED"
+    ],
+    "art": [
+     {
+      "f": "layaway_card",
+      "s": 0.5,
+      "x": 0.282,
+      "y": 0.5
+     },
+     {
+      "f": "phone",
+      "s": 0.5,
+      "x": 0.583,
+      "y": 0.5,
+      "delay": 0.6
+     }
+    ],
+    "sub": "2021: out with layaway, in with pay-later.",
+    "sticker": "?!",
+    "dur": 7,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "ink",
+    "head": "Layaway: PAY first. Get it later.",
+    "hl": [
+     "PAY"
+    ],
+    "art": [
+     {
+      "f": "layaway_card",
+      "s": 0.6,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Small payments. The store holds the item until it's paid off.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "cream",
+    "head": "It already died once, in 2006.",
+    "hl": [
+     "2006."
+    ],
+    "art": [
+     {
+      "f": "calendar",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "top": "GONE",
+       "big": "2006"
+      }
+     }
+    ],
+    "sub": "Walmart dropped it for low demand, then brought it back in the Great Recession.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "yellow",
+    "head": "Now: get it NOW. Pay later.",
+    "hl": [
+     "NOW."
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.62,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "screen": "PAY LATER"
+      }
+     }
+    ],
+    "sub": "Before the 2021 holidays, Walmart replaced layaway with Affirm.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "red",
+    "head": "Same payments. FLIPPED order.",
+    "hl": [
+     "FLIPPED"
+    ],
+    "art": [
+     {
+      "f": "layaway_card",
+      "s": 0.36,
+      "x": 0.207,
+      "y": 0.5
+     },
+     {
+      "f": "arrow",
+      "s": 0.24,
+      "x": 0.47,
+      "y": 0.5,
+      "delay": 0.4
+     },
+     {
+      "f": "phone",
+      "s": 0.4,
+      "x": 0.583,
+      "y": 0.5,
+      "delay": 0.6
+     }
+    ],
+    "sub": "You walk out with it. The debt walks out with you.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "cream",
+    "head": "“…but gets the debt immediately too.”",
+    "hsize": 104,
+    "hmax": 520,
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.48,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Rohit Chopra, then head of the CFPB, the US consumer finance watchdog",
+    "dur": 8,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "ink",
+    "head": "And the store gets paid TODAY.",
+    "hl": [
+     "TODAY."
+    ],
+    "art": [
+     {
+      "f": "money_stack",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "label": "PAID"
+      }
+     }
+    ],
+    "sub": "The pay-later company pays the store up front and takes the credit risk.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "yellow",
+    "head": "Fix: split it ONLY if you could pay cash today.",
+    "hl": [
+     "ONLY"
+    ],
+    "hsize": 110,
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Treat the button like layaway in reverse: it's a loan.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "ink",
+    "end": "Part 2 tomorrow: Apple tried this. Then it quit.",
+    "src": "Sources: Marketplace (Jan 2022) · Quartz · FOX 35",
+    "series": "PAY LATER · DAY 1"
+   }
+  ]
+ },
+ {
+  "date": "tiktok",
+  "slug": "apple-pay-later-tiktok",
+  "cover": {
+   "bg": "ink",
+   "head": "Apple QUIT pay-later",
+   "hl": [
+    "QUIT"
+   ],
+   "hsize": 160,
+   "art": [
+    {
+     "f": "phone",
+     "s": 0.6,
+     "x": 0.423,
+     "y": 0.5,
+     "args": {
+      "screen": "PAY LATER"
+     }
+    },
+    {
+     "f": "stamp",
+     "s": 0.44,
+     "x": 0.583,
+     "y": 0.8,
+     "args": {
+      "txt": "CLOSED"
+     }
+    }
+   ],
+   "sub": "Barely a year after launch",
+   "sticker": "?!",
+   "series": "PAY LATER · DAY 2"
+  },
+  "beats": [
+   {
+    "bg": "ink",
+    "head": "Apple tried pay-later. Then it QUIT.",
+    "hl": [
+     "QUIT."
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.6,
+      "x": 0.423,
+      "y": 0.5,
+      "args": {
+       "screen": "PAY LATER"
+      }
+     },
+     {
+      "f": "stamp",
+      "s": 0.44,
+      "x": 0.583,
+      "y": 0.8,
+      "args": {
+       "txt": "CLOSED"
+      },
+      "delay": 0.9
+     }
+    ],
+    "sub": "Launched March 2023. No new loans from June 17, 2024.",
+    "sticker": "?!",
+    "dur": 7,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "cream",
+    "head": "Up to $1,000. 4 payments. 6 weeks.",
+    "art": [
+     {
+      "f": "pay4",
+      "s": 0.7,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "amt": "$250"
+      }
+     }
+    ],
+    "sub": "No interest, no fees, and Apple lent the money itself.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "yellow",
+    "head": "So why would APPLE walk away?",
+    "hl": [
+     "APPLE"
+    ],
+    "art": [
+     {
+      "f": "question",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "dur": 5,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "red",
+    "head": "It handed the loans to OTHERS.",
+    "hl": [
+     "OTHERS."
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.6,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "screen": "BANK · AFFIRM"
+      }
+     }
+    ],
+    "sub": "Apple Pay now shows installment plans from banks, card issuers and Affirm.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "cream",
+    "head": "The lender holds the RISK.",
+    "hl": [
+     "RISK."
+    ],
+    "art": [
+     {
+      "f": "money_stack",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "label": "RISK"
+      }
+     }
+    ],
+    "sub": "Apple still offers pay-later. It just doesn't take the risk itself.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "ink",
+    "head": "The button stayed. The lender CHANGED.",
+    "hl": [
+     "CHANGED."
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.6,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Pay-later is still at checkout. Only the name behind it moved.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "red",
+    "head": "Fix: check WHO you owe.",
+    "hl": [
+     "WHO"
+    ],
+    "art": [
+     {
+      "f": "magnifier",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "LENDER"
+      }
+     }
+    ],
+    "sub": "Before you tap, find the lender's name and its late-fee rules.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "ink",
+    "end": "Part 2 tomorrow: the $39 billion crash.",
+    "src": "Sources: Apple Support · AP · Washington Times · Android Authority",
+    "series": "PAY LATER · DAY 2"
+   }
+  ]
+ },
+ {
+  "date": "tiktok",
+  "slug": "klarna-crash-tiktok",
+  "cover": {
+   "bg": "red",
+   "head": "$45.6B → $6.7B",
+   "hl": [
+    "$6.7B"
+   ],
+   "hsize": 170,
+   "art": [
+    {
+     "f": "bars2",
+     "s": 0.62,
+     "x": 0.47,
+     "y": 0.5
+    }
+   ],
+   "sub": "The pay-later giant's crash",
+   "sticker": "?!",
+   "series": "PAY LATER · DAY 3"
+  },
+  "beats": [
+   {
+    "bg": "red",
+    "head": "This company LOST $39 billion in a year.",
+    "hl": [
+     "LOST"
+    ],
+    "art": [
+     {
+      "f": "bars2",
+      "s": 0.62,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Klarna, the 'pay in 4' giant.",
+    "sticker": "?!",
+    "dur": 7,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "cream",
+    "head": "June 2021: worth…",
+    "count": {
+     "from": 0,
+     "to": 45.6,
+     "fmt": "${:.1f}B",
+     "size": 300,
+     "y": 0.45,
+     "dur": 1.6
+    },
+    "sub": "Europe's most valuable startup at the time (Sifted).",
+    "dur": 7,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "ink",
+    "head": "July 2022:",
+    "count": {
+     "from": 45.6,
+     "to": 6.7,
+     "fmt": "${:.1f}B",
+     "size": 300,
+     "y": 0.45,
+     "dur": 1.8
+    },
+    "sub": "An 85% drop in about a year (TechCrunch).",
+    "dur": 7,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "yellow",
+    "head": "What happened?",
+    "art": [
+     {
+      "f": "question",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "dur": 5,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "cream",
+    "head": "Its product is a LOAN.",
+    "hl": [
+     "LOAN."
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.6,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Every split checkout is Klarna lending you money.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "red",
+    "head": "Then money got EXPENSIVE.",
+    "hl": [
+     "EXPENSIVE."
+    ],
+    "art": [
+     {
+      "f": "bars2",
+      "s": 0.6,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "a": "$46.8B",
+       "b": "$6.1B",
+       "la": "PEAK",
+       "lb": "2022",
+       "ca": [
+        64,
+        110,
+        214,
+        255
+       ]
+      }
+     }
+    ],
+    "sub": "Rival Affirm fell from a $46.8B peak to about $6.1B too (Bloomberg).",
+    "dur": 7,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "ink",
+    "head": "Sept 2025: IPO at $15.1 BILLION.",
+    "hl": [
+     "$15.1"
+    ],
+    "art": [
+     {
+      "f": "money_stack",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "label": "$15.1B"
+      }
+     }
+    ],
+    "sub": "About a third of its 2021 peak.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "yellow",
+    "head": "Fix: pay-in-4 is DEBT.",
+    "hl": [
+     "DEBT."
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Count it with your card balance, not your spare cash.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "ink",
+    "end": "Part 2 tomorrow: guess the one-day total.",
+    "src": "Sources: TechCrunch · Bloomberg · Sifted · MarketBeat",
+    "series": "PAY LATER · DAY 3"
+   }
+  ]
+ },
+ {
+  "date": "tiktok",
+  "slug": "cyber-monday-guess-tiktok",
+  "cover": {
+   "bg": "ink",
+   "head": "Guess: $?.?? BILLION in ONE day",
+   "hl": [
+    "ONE"
+   ],
+   "hsize": 140,
+   "art": [
+    {
+     "f": "calendar",
+     "s": 0.55,
+     "x": 0.47,
+     "y": 0.5,
+     "args": {
+      "top": "CYBER",
+      "big": "MON"
+     }
+    }
+   ],
+   "sub": "Pay-later, Cyber Monday 2025",
+   "sticker": "?",
+   "series": "PAY LATER · DAY 4"
+  },
+  "beats": [
+   {
+    "bg": "ink",
+    "head": "Guess how much went on 'pay later' in ONE day.",
+    "hl": [
+     "ONE"
+    ],
+    "art": [
+     {
+      "f": "calendar",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "top": "CYBER",
+       "big": "MON"
+      }
+     }
+    ],
+    "sub": "US online shoppers, Cyber Monday 2025. Guess before the reveal.",
+    "sticker": "?",
+    "dur": 7,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "cream",
+    "head": "Hint: Black Friday was…",
+    "count": {
+     "from": 0,
+     "to": 747.5,
+     "fmt": "${:.1f}M",
+     "size": 230,
+     "y": 0.45,
+     "dur": 1.6
+    },
+    "sub": "Online pay-later spend, Black Friday 2025 (Adobe).",
+    "dur": 7,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "red",
+    "head": "Lock in your guess…",
+    "art": [
+     {
+      "f": "question",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "dur": 5,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "ink",
+    "head": "Cyber Monday:",
+    "count": {
+     "from": 0,
+     "to": 1.03,
+     "fmt": "${:.2f}B",
+     "size": 300,
+     "y": 0.45,
+     "dur": 1.6
+    },
+    "sub": "The first single day over $1 billion (Adobe Analytics).",
+    "dur": 7,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "cream",
+    "head": "About 4 in 5 were on a PHONE.",
+    "hl": [
+     "PHONE."
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.6,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "79.4% of Cyber Monday pay-later buys were on mobile.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "yellow",
+    "head": "The whole season: $20 BILLION.",
+    "hl": [
+     "$20"
+    ],
+    "art": [
+     {
+      "f": "money_stack",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "label": "$20B"
+      }
+     }
+    ],
+    "sub": "Nov 1 to Dec 31, 2025: a record for pay-later (Adobe).",
+    "dur": 7,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "red",
+    "head": "Fix: set your total BEFORE the cart.",
+    "hl": [
+     "BEFORE"
+    ],
+    "art": [
+     {
+      "f": "stamp",
+      "s": 0.6,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "LIMIT",
+       "color": [
+        247,
+        196,
+        49,
+        255
+       ]
+      }
+     }
+    ],
+    "sub": "Decide the number first. Then the button can't move it.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "ink",
+    "end": "Part 2 tomorrow: who paid $29 billion for this?",
+    "src": "Sources: Adobe Digital Insights · Digital Commerce 360",
+    "series": "PAY LATER · DAY 4"
+   }
+  ]
+ },
+ {
+  "date": "tiktok",
+  "slug": "afterpay-29b-tiktok",
+  "cover": {
+   "bg": "yellow",
+   "head": "$29 BILLION for 'pay in 4'?",
+   "hl": [
+    "$29"
+   ],
+   "hsize": 150,
+   "art": [
+    {
+     "f": "big_button",
+     "s": 0.62,
+     "x": 0.47,
+     "y": 0.42
+    },
+    {
+     "f": "price_tag",
+     "s": 0.42,
+     "x": 0.583,
+     "y": 0.72,
+     "args": {
+      "txt": "$29B"
+     }
+    }
+   ],
+   "sub": "Then the price fell in half",
+   "sticker": "?!",
+   "series": "PAY LATER · DAY 5"
+  },
+  "beats": [
+   {
+    "bg": "yellow",
+    "head": "They paid $29 BILLION for 'pay in 4'. Sort of.",
+    "hl": [
+     "$29"
+    ],
+    "art": [
+     {
+      "f": "big_button",
+      "s": 0.62,
+      "x": 0.47,
+      "y": 0.4
+     },
+     {
+      "f": "price_tag",
+      "s": 0.42,
+      "x": 0.583,
+      "y": 0.74,
+      "args": {
+       "txt": "$29B"
+      },
+      "delay": 0.6
+     }
+    ],
+    "sub": "Square agreed to buy Afterpay in 2021.",
+    "sticker": "?!",
+    "dur": 7,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "cream",
+    "head": "Aug 2021: the deal.",
+    "count": {
+     "from": 0,
+     "to": 29,
+     "fmt": "${:.0f}B",
+     "size": 300,
+     "y": 0.45,
+     "dur": 1.6
+    },
+    "sub": "Paid in Square shares, not cash.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "ink",
+    "head": "Jan 2022: deal closes. Those shares were worth…",
+    "hsize": 110,
+    "art": [
+     {
+      "f": "question",
+      "s": 0.45,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "dur": 5,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "red",
+    "head": "Same deal:",
+    "count": {
+     "from": 29,
+     "to": 13.8,
+     "fmt": "${:.1f}B",
+     "size": 300,
+     "y": 0.45,
+     "dur": 1.8
+    },
+    "sub": "Less than half the headline price (Block's own filings).",
+    "dur": 7,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "cream",
+    "head": "Why pay billions for 0% INTEREST?",
+    "hl": [
+     "0%"
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "screen": "0%"
+      }
+     }
+    ],
+    "dur": 6,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "yellow",
+    "head": "Because the STORE pays.",
+    "hl": [
+     "STORE"
+    ],
+    "art": [
+     {
+      "f": "money_stack",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "label": "FEE"
+      }
+     }
+    ],
+    "sub": "Stores pay a fee. Stripe found pay-later lifted revenue by up to 14%.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "ink",
+    "head": "You buy MORE. That's the product.",
+    "hl": [
+     "MORE."
+    ],
+    "art": [
+     {
+      "f": "bag",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "4×"
+      }
+     }
+    ],
+    "sub": "Bigger baskets, more checkouts: that's what stores pay for.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "red",
+    "head": "Fix: if it's gone before the last payment, don't split it.",
+    "hl": [
+     "gone"
+    ],
+    "hsize": 100,
+    "art": [
+     {
+      "f": "pay4",
+      "s": 0.6,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "amt": "$30",
+       "hit": 3
+      }
+     }
+    ],
+    "dur": 7,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "ink",
+    "end": "Part 2 tomorrow: the Black Friday bill in January.",
+    "src": "Sources: Block Form 10-Q (2022) · MergerLinks · Stripe",
+    "series": "PAY LATER · DAY 5"
+   }
+  ]
+ },
+ {
+  "date": "tiktok",
+  "slug": "january-bill-tiktok",
+  "cover": {
+   "bg": "cream",
+   "head": "Your Black Friday bill lands in JANUARY",
+   "hl": [
+    "JANUARY"
+   ],
+   "hsize": 130,
+   "art": [
+    {
+     "f": "calendar",
+     "s": 0.55,
+     "x": 0.47,
+     "y": 0.5,
+     "args": {
+      "top": "JAN",
+      "big": "8"
+     }
+    }
+   ],
+   "sub": "Example prices",
+   "sticker": "?!",
+   "series": "PAY LATER · DAY 6"
+  },
+  "beats": [
+   {
+    "bg": "cream",
+    "head": "Your Black Friday deal isn't over in January.",
+    "hl": [
+     "January."
+    ],
+    "art": [
+     {
+      "f": "calendar",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "top": "JAN",
+       "big": "8"
+      }
+     }
+    ],
+    "sub": "Example: a pay-in-4 TV bought Friday, Nov 27.",
+    "sticker": "?!",
+    "dur": 7,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "ink",
+    "head": "$300 TV. 4 × $75.",
+    "hl": [
+     "$75."
+    ],
+    "art": [
+     {
+      "f": "tv",
+      "s": 0.55,
+      "x": 0.395,
+      "y": 0.45,
+      "args": {
+       "txt": "$300"
+      }
+     },
+     {
+      "f": "price_tag",
+      "s": 0.4,
+      "x": 0.583,
+      "y": 0.75,
+      "args": {
+       "txt": "$75",
+       "small": "× 4"
+      },
+      "delay": 0.6
+     }
+    ],
+    "sub": "Example prices",
+    "dur": 7,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "yellow",
+    "head": "One today. Then every 2 WEEKS.",
+    "hl": [
+     "2"
+    ],
+    "art": [
+     {
+      "f": "pay4",
+      "s": 0.75,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "labels": [
+        "NOV 27",
+        "DEC 11",
+        "DEC 25",
+        "JAN 8"
+       ],
+       "amt": "$75"
+      }
+     }
+    ],
+    "sub": "The usual pay-in-4 schedule: four payments over six weeks.",
+    "dur": 8,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "red",
+    "head": "Payment 3 lands on CHRISTMAS.",
+    "hl": [
+     "CHRISTMAS."
+    ],
+    "art": [
+     {
+      "f": "pay4",
+      "s": 0.75,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "labels": [
+        "NOV 27",
+        "DEC 11",
+        "DEC 25",
+        "JAN 8"
+       ],
+       "amt": "$75",
+       "hit": 2
+      }
+     }
+    ],
+    "sub": "Dec 25 in this example. The last one: Jan 8.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "cream",
+    "head": "And it's rarely just one cart.",
+    "art": [
+     {
+      "f": "bag",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "4×"
+      }
+     }
+    ],
+    "sub": "Black Friday 2025: $747.5M went on pay-later in one day (Adobe).",
+    "dur": 7,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "ink",
+    "head": "3 deals = 12 payments.",
+    "hl": [
+     "12"
+    ],
+    "art": [
+     {
+      "f": "pay4",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.2,
+      "args": {
+       "amt": "$75"
+      }
+     },
+     {
+      "f": "pay4",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "amt": "$40"
+      },
+      "delay": 0.4
+     },
+     {
+      "f": "pay4",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.8,
+      "args": {
+       "amt": "$25"
+      },
+      "delay": 0.7
+     }
+    ],
+    "sub": "Example prices: three pay-in-4 buys on the same weekend.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "yellow",
+    "head": "Fix: if it's GONE before the last payment, don't split it.",
+    "hl": [
+     "GONE"
+    ],
+    "hsize": 100,
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.45,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Gifts, food, trips: pay in full.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "ink",
+    "end": "Part 2 tomorrow: the $150 hotel that cost $210.",
+    "src": "Sources: Adobe (Dec 2025) · LendingTree via FOX 35",
+    "series": "PAY LATER · DAY 6"
+   }
+  ]
+ },
+ {
+  "date": "tiktok",
+  "slug": "hotel-fees-teaser-tiktok",
+  "cover": {
+   "bg": "red",
+   "head": "$150 a night… checkout says $210",
+   "hl": [
+    "$210"
+   ],
+   "hsize": 140,
+   "art": [
+    {
+     "f": "hotel_bell",
+     "s": 0.5,
+     "x": 0.329,
+     "y": 0.5
+    },
+    {
+     "f": "price_tag",
+     "s": 0.45,
+     "x": 0.583,
+     "y": 0.55,
+     "args": {
+      "txt": "$150"
+     }
+    }
+   ],
+   "sub": "Example prices",
+   "sticker": "?!",
+   "series": "PAY LATER · DAY 7"
+  },
+  "beats": [
+   {
+    "bg": "red",
+    "head": "$150 a night. Then checkout says $210.",
+    "hl": [
+     "$210."
+    ],
+    "art": [
+     {
+      "f": "hotel_bell",
+      "s": 0.5,
+      "x": 0.329,
+      "y": 0.5
+     },
+     {
+      "f": "price_tag",
+      "s": 0.45,
+      "x": 0.583,
+      "y": 0.55,
+      "args": {
+       "txt": "$150"
+      },
+      "delay": 0.5
+     }
+    ],
+    "sub": "Example prices",
+    "sticker": "?!",
+    "dur": 7,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "cream",
+    "head": "Where did $60 COME from?",
+    "hl": [
+     "$60"
+    ],
+    "art": [
+     {
+      "f": "receipt",
+      "s": 0.7,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "rows": [
+        [
+         "Room",
+         "$150"
+        ],
+        [
+         "Resort fee",
+         "+$45"
+        ],
+        [
+         "Service fee",
+         "+$15"
+        ]
+       ],
+       "total": [
+        "TOTAL",
+        "$210"
+       ]
+      }
+     }
+    ],
+    "sub": "Example prices",
+    "dur": 8,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "ink",
+    "head": "Fees that show up AFTER you've decided.",
+    "hl": [
+     "AFTER"
+    ],
+    "art": [
+     {
+      "f": "hotel_bell",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "dur": 6,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "yellow",
+    "head": "Since May 2025, there's a RULE.",
+    "hl": [
+     "RULE."
+    ],
+    "art": [
+     {
+      "f": "gavel",
+      "s": 0.55,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "US hotels and event tickets must show the total price up front (FTC).",
+    "dur": 7,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "red",
+    "head": "So why does it still feel like this?",
+    "art": [
+     {
+      "f": "question",
+      "s": 0.5,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "New episode Friday: the fees hiding in the price you see.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "cream",
+    "head": "Fix today: go to checkout FIRST.",
+    "hl": [
+     "FIRST."
+    ],
+    "art": [
+     {
+      "f": "receipt",
+      "s": 0.6,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "rows": [
+        [
+         "Room",
+         "$150"
+        ],
+        [
+         "Fees",
+         "+$60"
+        ]
+       ],
+       "total": [
+        "TOTAL",
+        "$210"
+       ]
+      }
+     }
+    ],
+    "sub": "Compare the final total, not the headline price.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "ink",
+    "end": "Next week: HIDDEN FEES · DAY 1.",
+    "src": "Source: FTC Rule on Unfair or Deceptive Fees (May 2025)",
+    "series": "PAY LATER · DAY 7"
+   }
+  ]
+ }
+]
