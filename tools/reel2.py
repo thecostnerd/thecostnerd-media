@@ -78,7 +78,8 @@ def get_art(spec, W):
     key = json.dumps(spec, sort_keys=True) + str(W)
     if key not in _art_cache:
         S = int(spec.get("s", 0.6) * W)
-        args = {a: (tuple(v) if isinstance(v, list) and a != "rows" else v) for a, v in spec.get("args", {}).items()}
+        NAMED = {"red": A.RED, "yellow": A.YEL, "blue": A.BLUE, "green": A.GREEN, "ink": A.INK, "cream": A.CREAM, "light": A.LIGHT}
+        args = {a: (tuple(tuple(r) if isinstance(r, list) else r for r in v) if isinstance(v, list) and a in ("rows", "total") else tuple(v) if isinstance(v, list) else NAMED.get(v, v) if a in ("color", "tcol", "ca", "cb", "scol") and isinstance(v, str) else v) for a, v in spec.get("args", {}).items()}
         _art_cache[key] = A.ART[spec["f"]](S, **args)
     return _art_cache[key]
 

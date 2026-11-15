@@ -121,7 +121,11 @@ def pie(S=700, frac=0.66, label="⅔"):
     c.ell(130, 130, 870, 870, LIGHT)
     c.d.pieslice(c.p(130, 130, 870, 870), -90, -90 + 360 * frac, fill=RED, outline=INK, width=c.w(12))
     c.d.ellipse(c.p(130, 130, 870, 870), outline=INK, width=c.w(12))
-    c.text(560, 600, label, 200, LIGHT)
+    if frac >= 0.5:
+        c.text(560, 600, label, 200, LIGHT)
+    else:
+        c.rect(300, 420, 700, 600, YEL, r=30)
+        c.text(500, 510, label, 140, INK)
     return c.done()
 
 
@@ -737,3 +741,41 @@ def shots_compare(S=700, a=("SHORT", "8 oz"), b=("TALL", "12 oz"), shot="1 SHOT"
 
 
 ART.update({"shots_compare": shots_compare})
+
+
+def egg_carton(S=700, label="PAY IN 4", n=6):
+    """An open egg carton (generic) with a pay-later tag."""
+    c = C(S)
+    c.poly([(90, 470), (910, 470), (860, 780), (140, 780)], KRAFT)            # tray
+    c.poly([(110, 470), (890, 470), (850, 260), (150, 260)], KRAFT2)          # lid (open)
+    for i in range(n):
+        x = 205 + i * 118
+        c.ell(x - 52, 360, x + 52, 520, (250, 246, 236, 255), ow=10)
+    c.line([(140, 640), (860, 640)], KRAFT2, 10)
+    if label:
+        c.rect(300, 600, 700, 720, YEL, r=20)
+        c.text(500, 660, label, 58, INK)
+    return c.done()
+
+
+def credit_gauge(S=700, val=0.62, label="CREDIT SCORE", note="NOT REPORTED"):
+    """A credit-score dial with a needle and an optional 'not reported' banner."""
+    import math
+    c = C(S)
+    cx, cy, r = 500, 600, 360
+    segs = [RED, (232, 120, 40, 255), YEL, (150, 196, 70, 255), GREEN]
+    for i, col in enumerate(segs):
+        a0 = 180 + i * 36; a1 = a0 + 36
+        c.d.pieslice(c.p(cx - r, cy - r, cx + r, cy + r), a0, a1, fill=col, outline=INK, width=max(1, int(10 * c.u)))
+    c.ell(cx - 230, cy - 230, cx + 230, cy + 230, LIGHT, ow=10, shadow=False)
+    a = math.radians(180 + 180 * val)
+    c.line([(cx, cy), (cx + 300 * math.cos(a), cy + 300 * math.sin(a))], INK, 22)
+    c.ell(cx - 40, cy - 40, cx + 40, cy + 40, INK, ow=0, shadow=False)
+    c.text(cx, cy + 90, label, 52, INK)
+    if note:
+        c.rect(220, 740, 780, 860, RED, r=20)
+        c.text(500, 800, note, 56, LIGHT)
+    return c.done()
+
+
+ART.update({"egg_carton": egg_carton, "credit_gauge": credit_gauge})

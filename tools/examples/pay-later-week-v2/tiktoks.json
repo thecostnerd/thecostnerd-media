@@ -1,0 +1,1467 @@
+[
+ {
+  "date": "2026-11-19",
+  "slug": "w05b-1-walmart-layaway-c",
+  "beats": [
+   {
+    "bg": "yellow",
+    "head": "Layaway is DEAD. This replaced it.",
+    "hl": [
+     "DEAD."
+    ],
+    "hsize": 128,
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "screen": "PAY IN 4"
+      }
+     }
+    ],
+    "sub": "Walmart made the switch in 2021.",
+    "dur": 5,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "ink",
+    "head": "Layaway: you PAID first.",
+    "hl": [
+     "PAID"
+    ],
+    "art": [
+     {
+      "f": "layaway_card",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Small payments. The store held the item until it was paid off.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "cream",
+    "head": "Walmart killed it once: 2006.",
+    "hl": [
+     "2006."
+    ],
+    "art": [
+     {
+      "f": "calendar",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "top": "DROPPED",
+       "big": "2006"
+      }
+     }
+    ],
+    "sub": "Then brought it back during the Great Recession (Quartz).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "yellow",
+    "head": "2021: hello, AFFIRM.",
+    "hl": [
+     "AFFIRM."
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "screen": "PAY IN 4"
+      }
+     }
+    ],
+    "sub": "Walmart swapped layaway for Affirm's pay-later (Marketplace, 2022).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "ink",
+    "head": "Same payments. FLIPPED order.",
+    "hl": [
+     "FLIPPED"
+    ],
+    "art": [
+     {
+      "f": "pay4",
+      "s": 0.63,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "amt": "$75"
+      }
+     }
+    ],
+    "sub": "You get the item now, and the debt now too. Example prices.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "red",
+    "head": "The watchdog's verdict: DEBT now.",
+    "hl": [
+     "DEBT"
+    ],
+    "art": [
+     {
+      "f": "stamp",
+      "s": 0.495,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "DEBT",
+       "color": "yellow"
+      }
+     }
+    ],
+    "sub": "The US consumer-finance watchdog's director called it the new layaway, with the debt up front.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "cream",
+    "head": "Could you pay CASH today?",
+    "hl": [
+     "CASH"
+    ],
+    "art": [
+     {
+      "f": "big_button",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "CASH TODAY?"
+      }
+     }
+    ],
+    "sub": "The layaway rule: only split it if you could pay in full right now.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 1"
+   },
+   {
+    "bg": "ink",
+    "cta": true,
+    "end": "Follow for Part 2: Apple tried this. Then it quit.",
+    "src": "Sources: Marketplace 2022 · Quartz · FOX 35/LendingTree",
+    "series": "PAY LATER · DAY 1"
+   }
+  ],
+  "cover": {
+   "bg": "yellow",
+   "head": "Layaway is DEAD. This replaced it.",
+   "hl": [
+    "DEAD."
+   ],
+   "hsize": 128,
+   "art": [
+    {
+     "f": "phone",
+     "s": 0.54,
+     "x": 0.47,
+     "y": 0.5,
+     "args": {
+      "screen": "PAY IN 4"
+     }
+    }
+   ],
+   "sub": "Walmart made the switch in 2021.",
+   "series": "PAY LATER · DAY 1"
+  }
+ },
+ {
+  "date": "2026-11-20",
+  "slug": "w05b-2-apple-pay-later-c",
+  "beats": [
+   {
+    "bg": "yellow",
+    "head": "Apple quit after 15 months. WHY?",
+    "hl": [
+     "WHY?"
+    ],
+    "hsize": 128,
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.495,
+      "x": 0.376,
+      "y": 0.5,
+      "args": {
+       "screen": "PAY LATER"
+      }
+     },
+     {
+      "f": "question",
+      "s": 0.315,
+      "x": 0.583,
+      "y": 0.45,
+      "delay": 0.5
+     }
+    ],
+    "sub": "Apple Pay Later, 2023 to 2024.",
+    "dur": 5,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "ink",
+    "head": "2023: up to $1,000 at 0%.",
+    "hl": [
+     "$1,000"
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "screen": "$1,000",
+       "sub": "4 PAYMENTS"
+      }
+     }
+    ],
+    "sub": "Four payments over six weeks, no interest or fees (Apple Support).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "cream",
+    "head": "Apple was the LENDER.",
+    "hl": [
+     "LENDER."
+    ],
+    "art": [
+     {
+      "f": "money_stack",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "label": "APPLE $"
+      }
+     }
+    ],
+    "sub": "The loans were backed directly by Apple (Washington Times, 2024).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "red",
+    "head": "June 2024: CLOSED.",
+    "hl": [
+     "CLOSED."
+    ],
+    "art": [
+     {
+      "f": "stamp",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "CLOSED",
+       "color": "yellow"
+      }
+     }
+    ],
+    "sub": "Apple stopped making new pay-later loans on June 17, 2024 (AP).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "yellow",
+    "head": "The button STAYED.",
+    "hl": [
+     "STAYED."
+    ],
+    "art": [
+     {
+      "f": "big_button",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "PAY LATER"
+      }
+     }
+    ],
+    "sub": "Now banks, card issuers and Affirm do the lending through Apple Pay.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "ink",
+    "head": "Apple kept the button. Dropped the RISK.",
+    "hl": [
+     "RISK."
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.45,
+      "x": 0.301,
+      "y": 0.5,
+      "args": {
+       "screen": "PAY LATER"
+      }
+     },
+     {
+      "f": "arrow",
+      "s": 0.36,
+      "x": 0.583,
+      "y": 0.5,
+      "delay": 0.4
+     }
+    ],
+    "sub": "\"It just won't be taking the risk itself.\" (Android Authority)",
+    "dur": 7,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "cream",
+    "head": "Before you tap: WHO do you owe?",
+    "hl": [
+     "WHO"
+    ],
+    "art": [
+     {
+      "f": "magnifier",
+      "s": 0.522,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "WHO?"
+      }
+     }
+    ],
+    "sub": "The name on the loan is who you pay, and whose fees apply.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 2"
+   },
+   {
+    "bg": "ink",
+    "cta": true,
+    "end": "Follow for Part 2: what people now pay for in 4.",
+    "src": "Sources: Apple Support · AP · Washington Times · Android Authority",
+    "series": "PAY LATER · DAY 2"
+   }
+  ],
+  "cover": {
+   "bg": "yellow",
+   "head": "Apple quit after 15 months. WHY?",
+   "hl": [
+    "WHY?"
+   ],
+   "hsize": 128,
+   "art": [
+    {
+     "f": "phone",
+     "s": 0.495,
+     "x": 0.376,
+     "y": 0.5,
+     "args": {
+      "screen": "PAY LATER"
+     }
+    },
+    {
+     "f": "question",
+     "s": 0.315,
+     "x": 0.583,
+     "y": 0.45,
+     "delay": 0.5
+    }
+   ],
+   "sub": "Apple Pay Later, 2023 to 2024.",
+   "series": "PAY LATER · DAY 2"
+  }
+ },
+ {
+  "date": "2026-11-21",
+  "slug": "w05b-3-groceries-pay-in-4-c",
+  "beats": [
+   {
+    "bg": "yellow",
+    "head": "Pay-later for groceries DOUBLED.",
+    "hl": [
+     "DOUBLED."
+    ],
+    "hsize": 128,
+    "art": [
+     {
+      "f": "bars2",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "a": "14%",
+       "b": "29%",
+       "la": "2024",
+       "lb": "2026",
+       "ha": 0.48,
+       "hb": 1.0
+      }
+     }
+    ],
+    "sub": "Share of pay-later users who've bought groceries with it.",
+    "dur": 5,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "ink",
+    "head": "29% used it for GROCERIES.",
+    "hl": [
+     "GROCERIES."
+    ],
+    "art": [
+     {
+      "f": "egg_carton",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Of pay-later users, LendingTree 2026 survey.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "yellow",
+    "head": "It DOUBLED in two years.",
+    "hl": [
+     "DOUBLED"
+    ],
+    "art": [
+     {
+      "f": "bars2",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "a": "14%",
+       "b": "29%",
+       "la": "2024",
+       "lb": "2026",
+       "ha": 0.48,
+       "hb": 1.0
+      }
+     }
+    ],
+    "sub": "14% two years ago (LendingTree).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "cream",
+    "head": "Eaten by week 1. Paid by WEEK 6.",
+    "hl": [
+     "WEEK 6."
+    ],
+    "art": [
+     {
+      "f": "pay4",
+      "s": 0.63,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "amt": "$25",
+       "hit": 3
+      }
+     }
+    ],
+    "sub": "Pay in 4 usually runs six weeks. Example prices.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "ink",
+    "head": "47% paid LATE last year.",
+    "hl": [
+     "LATE"
+    ],
+    "art": [
+     {
+      "f": "stamp",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "LATE",
+       "color": "red"
+      }
+     }
+    ],
+    "sub": "Of pay-later users, up from 34% in 2024 (LendingTree).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "red",
+    "head": "3 carts = 12 PAYMENTS.",
+    "hl": [
+     "PAYMENTS."
+    ],
+    "art": [
+     {
+      "f": "receipt",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "rows": [
+        [
+         "Cart 1",
+         "x4"
+        ],
+        [
+         "Cart 2",
+         "x4"
+        ],
+        [
+         "Cart 3",
+         "x4"
+        ]
+       ],
+       "total": [
+        "PAYMENTS",
+        "12"
+       ],
+       "title": "EXAMPLE"
+      }
+     }
+    ],
+    "sub": "Stack your weekly shops and the payments stack too.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "yellow",
+    "head": "Gone before payment 4? DON'T split.",
+    "hl": [
+     "DON'T"
+    ],
+    "art": [
+     {
+      "f": "big_button",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "DON'T SPLIT"
+      }
+     }
+    ],
+    "sub": "If it's used up before the last payment, pay for it now.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 3"
+   },
+   {
+    "bg": "ink",
+    "cta": true,
+    "end": "Follow for Part 2: miss ONE payment, here's the fee.",
+    "src": "Sources: LendingTree 2026 BNPL Report · Chain Store Age",
+    "series": "PAY LATER · DAY 3"
+   }
+  ],
+  "cover": {
+   "bg": "yellow",
+   "head": "Pay-later for groceries DOUBLED.",
+   "hl": [
+    "DOUBLED."
+   ],
+   "hsize": 128,
+   "art": [
+    {
+     "f": "bars2",
+     "s": 0.54,
+     "x": 0.47,
+     "y": 0.5,
+     "args": {
+      "a": "14%",
+      "b": "29%",
+      "la": "2024",
+      "lb": "2026",
+      "ha": 0.48,
+      "hb": 1.0
+     }
+    }
+   ],
+   "sub": "Share of pay-later users who've bought groceries with it.",
+   "series": "PAY LATER · DAY 3"
+  }
+ },
+ {
+  "date": "2026-11-22",
+  "slug": "w05b-4-afterpay-late-fee-c",
+  "beats": [
+   {
+    "bg": "yellow",
+    "head": "A 0% loan that can cost 25%.",
+    "hl": [
+     "25%."
+    ],
+    "hsize": 128,
+    "art": [
+     {
+      "f": "pie",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "frac": 0.25,
+       "label": "25%"
+      }
+     }
+    ],
+    "sub": "Afterpay's own late-fee cap.",
+    "dur": 5,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "ink",
+    "head": "0% interest. IF you're on time.",
+    "hl": [
+     "IF"
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "screen": "PAY IN 4",
+       "sub": "0% INTEREST"
+      }
+     }
+    ],
+    "sub": "Afterpay Pay in 4: four payments, no interest when paid on time.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "cream",
+    "head": "Up to $8 per MISS.",
+    "hl": [
+     "$8"
+    ],
+    "art": [
+     {
+      "f": "price_tag",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "$8"
+      }
+     }
+    ],
+    "sub": "After a 10-day grace period, a late fee of up to $8 per missed payment (Afterpay; NerdWallet).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "yellow",
+    "head": "Capped at 25% of your ORDER.",
+    "hl": [
+     "ORDER."
+    ],
+    "art": [
+     {
+      "f": "pie",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "frac": 0.25,
+       "label": "25%"
+      }
+     }
+    ],
+    "sub": "Total late fees per order never exceed 25% of the order value (Afterpay).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "ink",
+    "head": "$40 order. $10 in FEES.",
+    "hl": [
+     "FEES."
+    ],
+    "art": [
+     {
+      "f": "receipt",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "rows": [
+        [
+         "Order",
+         "$40"
+        ],
+        [
+         "Late fees",
+         "+$10"
+        ]
+       ],
+       "total": [
+        "TOTAL",
+        "$50"
+       ],
+       "title": "EXAMPLE"
+      }
+     }
+    ],
+    "sub": "Example prices: the 25% cap on a $40 order.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "cream",
+    "head": "Twist: you can MOVE one payment free.",
+    "hl": [
+     "MOVE"
+    ],
+    "art": [
+     {
+      "f": "calendar",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "top": "MOVE 1",
+       "big": "FREE"
+      }
+     }
+    ],
+    "sub": "Afterpay lets you reschedule one Pay in 4 payment per order at no cost (NerdWallet).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "red",
+    "head": "Short this week? RESCHEDULE.",
+    "hl": [
+     "RESCHEDULE."
+    ],
+    "art": [
+     {
+      "f": "big_button",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "RESCHEDULE"
+      }
+     }
+    ],
+    "sub": "Do it before a late fee lands.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 4"
+   },
+   {
+    "bg": "ink",
+    "cta": true,
+    "end": "Follow for Part 2: does pay-in-4 even help your credit?",
+    "src": "Sources: Afterpay Help & Installment Agreement · NerdWallet",
+    "series": "PAY LATER · DAY 4"
+   }
+  ],
+  "cover": {
+   "bg": "yellow",
+   "head": "A 0% loan that can cost 25%.",
+   "hl": [
+    "25%."
+   ],
+   "hsize": 128,
+   "art": [
+    {
+     "f": "pie",
+     "s": 0.54,
+     "x": 0.47,
+     "y": 0.5,
+     "args": {
+      "frac": 0.25,
+      "label": "25%"
+     }
+    }
+   ],
+   "sub": "Afterpay's own late-fee cap.",
+   "series": "PAY LATER · DAY 4"
+  }
+ },
+ {
+  "date": "2026-11-23",
+  "slug": "w05b-5-credit-blind-spot-c",
+  "beats": [
+   {
+    "bg": "yellow",
+    "head": "Your pay-later loans are INVISIBLE.",
+    "hl": [
+     "INVISIBLE."
+    ],
+    "hsize": 128,
+    "art": [
+     {
+      "f": "credit_gauge",
+      "s": 0.594,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "note": "INVISIBLE"
+      }
+     }
+    ],
+    "sub": "Federal Reserve, August 2026.",
+    "dur": 5,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "ink",
+    "head": "Most aren't REPORTED.",
+    "hl": [
+     "REPORTED."
+    ],
+    "art": [
+     {
+      "f": "credit_gauge",
+      "s": 0.594,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Most pay-in-4 loans still aren't reported to the major bureaus (Federal Reserve, Aug 2026).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "cream",
+    "head": "On time? Usually NO credit.",
+    "hl": [
+     "NO"
+    ],
+    "art": [
+     {
+      "f": "credit_gauge",
+      "s": 0.594,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "val": 0.5,
+       "note": "NO CREDIT"
+      }
+     }
+    ],
+    "sub": "If a lender doesn't report, on-time payments can't build your score.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "red",
+    "head": "The debt is real. Just HIDDEN.",
+    "hl": [
+     "HIDDEN."
+    ],
+    "art": [
+     {
+      "f": "receipt",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "rows": [
+        [
+         "App 1",
+         "$75 x 3"
+        ],
+        [
+         "App 2",
+         "$40 x 4"
+        ],
+        [
+         "App 3",
+         "$60 x 2"
+        ]
+       ],
+       "total": [
+        "OWED",
+        "$505"
+       ],
+       "title": "EXAMPLE"
+      }
+     }
+    ],
+    "sub": "Your bank, landlord or next lender may have no idea (PYMNTS). Example prices.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "yellow",
+    "head": "24% run SEVERAL at once.",
+    "hl": [
+     "SEVERAL"
+    ],
+    "art": [
+     {
+      "f": "phone",
+      "s": 0.45,
+      "x": 0.282,
+      "y": 0.5,
+      "args": {
+       "screen": "PAY IN 4"
+      }
+     },
+     {
+      "f": "phone",
+      "s": 0.45,
+      "x": 0.583,
+      "y": 0.5,
+      "args": {
+       "screen": "PAY IN 4"
+      },
+      "delay": 0.3
+     }
+    ],
+    "sub": "Of pay-later users, carrying multiple loans at once (LendingTree 2026).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "ink",
+    "head": "The only tracker? YOU.",
+    "hl": [
+     "YOU."
+    ],
+    "art": [
+     {
+      "f": "magnifier",
+      "s": 0.522,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "TOTAL?"
+      }
+     }
+    ],
+    "sub": "No bureau adds them up for you.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "cream",
+    "head": "One list. Every DUE DATE.",
+    "hl": [
+     "DUE"
+    ],
+    "art": [
+     {
+      "f": "checklist",
+      "s": 0.594,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "rows": [
+        "EVERY APP",
+        "EVERY DUE DATE",
+        "ONE TOTAL"
+       ]
+      }
+     }
+    ],
+    "sub": "Keep it where you'll see it before you tap buy.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 5"
+   },
+   {
+    "bg": "ink",
+    "cta": true,
+    "end": "Follow for Part 2: the Black Friday bill due on Christmas.",
+    "src": "Sources: Federal Reserve (Aug 2026) · PYMNTS · LendingTree 2026",
+    "series": "PAY LATER · DAY 5"
+   }
+  ],
+  "cover": {
+   "bg": "yellow",
+   "head": "Your pay-later loans are INVISIBLE.",
+   "hl": [
+    "INVISIBLE."
+   ],
+   "hsize": 128,
+   "art": [
+    {
+     "f": "credit_gauge",
+     "s": 0.594,
+     "x": 0.47,
+     "y": 0.5,
+     "args": {
+      "note": "INVISIBLE"
+     }
+    }
+   ],
+   "sub": "Federal Reserve, August 2026.",
+   "series": "PAY LATER · DAY 5"
+  }
+ },
+ {
+  "date": "2026-11-24",
+  "slug": "w05b-6-black-friday-christmas-bill-c",
+  "beats": [
+   {
+    "bg": "yellow",
+    "head": "Before Black Friday, check this DATE.",
+    "hl": [
+     "DATE."
+    ],
+    "hsize": 128,
+    "art": [
+     {
+      "f": "calendar",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "top": "DEC",
+       "big": "25"
+      }
+     }
+    ],
+    "sub": "Pay in 4, starting Nov 27. Example prices.",
+    "dur": 5,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "ink",
+    "head": "$300 TV? 4 payments of $75.",
+    "hl": [
+     "$75."
+    ],
+    "art": [
+     {
+      "f": "tv",
+      "s": 0.45,
+      "x": 0.282,
+      "y": 0.5,
+      "args": {
+       "txt": "$300"
+      }
+     },
+     {
+      "f": "price_tag",
+      "s": 0.378,
+      "x": 0.583,
+      "y": 0.46,
+      "args": {
+       "txt": "$75"
+      },
+      "delay": 0.4
+     }
+    ],
+    "sub": "Example prices.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "cream",
+    "head": "Payment 1: BLACK FRIDAY.",
+    "hl": [
+     "FRIDAY."
+    ],
+    "art": [
+     {
+      "f": "calendar",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "top": "NOV",
+       "big": "27"
+      }
+     }
+    ],
+    "sub": "Black Friday 2026 is November 27.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "red",
+    "head": "Payment 3: CHRISTMAS DAY.",
+    "hl": [
+     "CHRISTMAS"
+    ],
+    "art": [
+     {
+      "f": "calendar",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "top": "DEC",
+       "big": "25",
+       "color": "yellow"
+      }
+     }
+    ],
+    "sub": "Every two weeks: Dec 11, then Dec 25.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "ink",
+    "head": "Last one: JANUARY 8.",
+    "hl": [
+     "JANUARY"
+    ],
+    "art": [
+     {
+      "f": "calendar",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "top": "JAN",
+       "big": "8"
+      }
+     }
+    ],
+    "sub": "Four payments over six weeks.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "yellow",
+    "head": "38% plan to SPLIT this season.",
+    "hl": [
+     "SPLIT"
+    ],
+    "art": [
+     {
+      "f": "pie",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "frac": 0.38,
+       "label": "38%"
+      }
+     }
+    ],
+    "sub": "Of holiday shoppers expect to use pay-later (NerdWallet/Harris Poll).",
+    "dur": 6,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "ink",
+    "head": "3 deals = 12 PAYMENTS.",
+    "hl": [
+     "PAYMENTS."
+    ],
+    "art": [
+     {
+      "f": "receipt",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "rows": [
+        [
+         "Deal 1",
+         "x4"
+        ],
+        [
+         "Deal 2",
+         "x4"
+        ],
+        [
+         "Deal 3",
+         "x4"
+        ]
+       ],
+       "total": [
+        "PAYMENTS",
+        "12"
+       ],
+       "title": "EXAMPLE"
+      }
+     }
+    ],
+    "sub": "Stack three Black Friday deals and the payments stack through the holidays.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "cream",
+    "head": "Put all 4 dates in your CALENDAR.",
+    "hl": [
+     "CALENDAR."
+    ],
+    "art": [
+     {
+      "f": "checklist",
+      "s": 0.594,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "rows": [
+        "NOV 27",
+        "DEC 11",
+        "DEC 25",
+        "JAN 8"
+       ]
+      }
+     }
+    ],
+    "sub": "Before you tap buy, not after.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 6"
+   },
+   {
+    "bg": "ink",
+    "cta": true,
+    "end": "Follow for Part 2: the hotel price that grows at checkout.",
+    "src": "Sources: NerdWallet/Harris Poll (via 24/7 Wall St.) · Example prices",
+    "series": "PAY LATER · DAY 6"
+   }
+  ],
+  "cover": {
+   "bg": "yellow",
+   "head": "Before Black Friday, check this DATE.",
+   "hl": [
+    "DATE."
+   ],
+   "hsize": 128,
+   "art": [
+    {
+     "f": "calendar",
+     "s": 0.54,
+     "x": 0.47,
+     "y": 0.5,
+     "args": {
+      "top": "DEC",
+      "big": "25"
+     }
+    }
+   ],
+   "sub": "Pay in 4, starting Nov 27. Example prices.",
+   "series": "PAY LATER · DAY 6"
+  }
+ },
+ {
+  "date": "2026-11-25",
+  "slug": "w05b-7-hotel-150-210-c",
+  "beats": [
+   {
+    "bg": "yellow",
+    "head": "This $60 only shows up LAST.",
+    "hl": [
+     "LAST."
+    ],
+    "hsize": 128,
+    "art": [
+     {
+      "f": "price_tag",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "+$60"
+      }
+     }
+    ],
+    "sub": "Resort fee + service fee. Example prices.",
+    "dur": 5,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "ink",
+    "head": "$150 a night.",
+    "hl": [
+     "$150"
+    ],
+    "art": [
+     {
+      "f": "hotel_bell",
+      "s": 0.45,
+      "x": 0.282,
+      "y": 0.52
+     },
+     {
+      "f": "price_tag",
+      "s": 0.405,
+      "x": 0.583,
+      "y": 0.46,
+      "args": {
+       "txt": "$150"
+      },
+      "delay": 0.4
+     }
+    ],
+    "sub": "Example prices.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "cream",
+    "head": "Then the FEES.",
+    "hl": [
+     "FEES."
+    ],
+    "art": [
+     {
+      "f": "receipt",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "rows": [
+        [
+         "Room",
+         "$150"
+        ],
+        [
+         "Resort fee",
+         "+$45"
+        ],
+        [
+         "Service fee",
+         "+$15"
+        ]
+       ],
+       "total": [
+        "TOTAL",
+        "$210"
+       ],
+       "title": "EXAMPLE"
+      }
+     }
+    ],
+    "sub": "Added after you've already decided.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "red",
+    "head": "40% more than you PICKED.",
+    "hl": [
+     "PICKED."
+    ],
+    "art": [
+     {
+      "f": "bars2",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "a": "$150",
+       "b": "$210",
+       "la": "PICKED",
+       "lb": "PAID",
+       "ha": 0.71,
+       "hb": 1.0
+      }
+     }
+    ],
+    "sub": "Example prices.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "yellow",
+    "head": "The rule: TOTAL up front.",
+    "hl": [
+     "TOTAL"
+    ],
+    "art": [
+     {
+      "f": "gavel",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Since May 12, 2025, the FTC fees rule covers hotels and live-event tickets.",
+    "dur": 7,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "ink",
+    "head": "But only hotels and TICKETS.",
+    "hl": [
+     "TICKETS."
+    ],
+    "art": [
+     {
+      "f": "ticket",
+      "s": 0.54,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "RULE"
+      }
+     }
+    ],
+    "sub": "Other purchases aren't covered by that rule.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "cream",
+    "head": "Compare the LAST screen.",
+    "hl": [
+     "LAST"
+    ],
+    "art": [
+     {
+      "f": "big_button",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "FINAL TOTAL"
+      }
+     }
+    ],
+    "sub": "Go to the final checkout screen before you compare.",
+    "dur": 6,
+    "series": "PAY LATER · DAY 7"
+   },
+   {
+    "bg": "ink",
+    "cta": true,
+    "end": "Follow: the full hidden-fee investigation drops Sunday.",
+    "src": "Sources: FTC Rule on Unfair or Deceptive Fees (16 CFR 464) · Example prices",
+    "series": "PAY LATER · DAY 7"
+   }
+  ],
+  "cover": {
+   "bg": "yellow",
+   "head": "This $60 only shows up LAST.",
+   "hl": [
+    "LAST."
+   ],
+   "hsize": 128,
+   "art": [
+    {
+     "f": "price_tag",
+     "s": 0.54,
+     "x": 0.47,
+     "y": 0.5,
+     "args": {
+      "txt": "+$60"
+     }
+    }
+   ],
+   "sub": "Resort fee + service fee. Example prices.",
+   "series": "PAY LATER · DAY 7"
+  }
+ }
+]
