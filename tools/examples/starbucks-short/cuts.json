@@ -1,0 +1,573 @@
+[
+ {
+  "date": "2026-11-15",
+  "slug": "starbucks-short-reel",
+  "cover": {
+   "bg": "cream",
+   "head": "Starbucks HIDES this size.",
+   "hl": [
+    "HIDES"
+   ],
+   "hsize": 130,
+   "art": [
+    {
+     "f": "coffee_cups",
+     "s": 0.7,
+     "x": 0.5,
+     "y": 0.5
+    }
+   ],
+   "sub": "8 oz. Not on the menu board."
+  },
+  "beats": [
+   {
+    "bg": "cream",
+    "head": "Starbucks HIDES this size.",
+    "hl": [
+     "HIDES"
+    ],
+    "hsize": 130,
+    "art": [
+     {
+      "f": "coffee_cups",
+      "s": 0.7,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "8 oz. Not on the menu board.",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "head": "Your 'small' is 12 OZ.",
+    "hl": [
+     "OZ."
+    ],
+    "art": [
+     {
+      "f": "coffee_cups",
+      "s": 0.7,
+      "x": 0.5,
+      "y": 0.5,
+      "args": {
+       "hidden": null,
+       "hit": 1
+      }
+     }
+    ],
+    "sub": "Starbucks started with two sizes: an 8 oz Short and a 12 oz Tall.",
+    "dur": 6
+   },
+   {
+    "bg": "yellow",
+    "head": "The Short still EXISTS.",
+    "hl": [
+     "EXISTS."
+    ],
+    "art": [
+     {
+      "f": "coffee_cups",
+      "s": 0.7,
+      "x": 0.5,
+      "y": 0.5,
+      "args": {
+       "hidden": null,
+       "hit": 0
+      }
+     }
+    ],
+    "sub": "Starbucks even launched its 2025 cortado in Short (8 oz) only.",
+    "dur": 5
+   },
+   {
+    "bg": "red",
+    "head": "Official reason: 'no ROOM.'",
+    "hl": [
+     "ROOM."
+    ],
+    "art": [
+     {
+      "f": "menu_board",
+      "s": 0.8,
+      "x": 0.5,
+      "y": 0.55,
+      "args": {
+       "ghost": "SHORT"
+      }
+     }
+    ],
+    "sub": "What Starbucks told economist Tim Harford (Slate, 2006).",
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "Hide the CHEAP cup.",
+    "hl": [
+     "CHEAP"
+    ],
+    "art": [
+     {
+      "f": "magnifier",
+      "s": 0.58,
+      "x": 0.5,
+      "y": 0.5,
+      "args": {
+       "txt": "8 oz"
+      }
+     }
+    ],
+    "sub": "Harford: only price-hunters ask for it. Everyone else pays more.",
+    "dur": 6
+   },
+   {
+    "bg": "ink",
+    "head": "Now GRANDE feels 'normal'.",
+    "hl": [
+     "GRANDE"
+    ],
+    "art": [
+     {
+      "f": "menu_board",
+      "s": 0.8,
+      "x": 0.5,
+      "y": 0.55
+     }
+    ],
+    "sub": "With no small in sight, 16 oz looks like the safe middle.",
+    "dur": 6
+   },
+   {
+    "bg": "yellow",
+    "head": "Twist: SAME shot as a Tall.",
+    "hl": [
+     "SAME"
+    ],
+    "art": [
+     {
+      "f": "shots_compare",
+      "s": 0.7,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Short and Tall lattes both get one espresso shot. The Tall just adds milk.",
+    "dur": 7
+   },
+   {
+    "bg": "red",
+    "head": "Next time, say: 'SHORT, please.'",
+    "hl": [
+     "SHORT,"
+    ],
+    "art": [
+     {
+      "f": "big_button",
+      "s": 0.62,
+      "x": 0.5,
+      "y": 0.5,
+      "args": {
+       "txt": "SHORT"
+      }
+     }
+    ],
+    "sub": "Same coffee. Less milk. Lower price.",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "cta": true,
+    "end": "Save this + send it to the friend who always orders a Tall.",
+    "src": "Sources: Harford/Slate 2006 · Starbucks 2025 · Business Insider · Reader's Digest"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-15",
+  "slug": "starbucks-short-trial-hook-b",
+  "cover": {
+   "bg": "ink",
+   "head": "Ordered a Tall? Not the SMALL.",
+   "hl": [
+    "SMALL."
+   ],
+   "hsize": 130,
+   "art": [
+    {
+     "f": "coffee_cups",
+     "s": 0.7,
+     "x": 0.5,
+     "y": 0.5,
+     "args": {
+      "hit": 1
+     }
+    }
+   ],
+   "sub": "Starbucks' real small cup isn't on the board."
+  },
+  "beats": [
+   {
+    "bg": "ink",
+    "head": "Ordered a Tall? Not the SMALL.",
+    "hl": [
+     "SMALL."
+    ],
+    "hsize": 130,
+    "art": [
+     {
+      "f": "coffee_cups",
+      "s": 0.7,
+      "x": 0.5,
+      "y": 0.5,
+      "args": {
+       "hit": 1
+      }
+     }
+    ],
+    "sub": "Starbucks' real small cup isn't on the board.",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "head": "Your 'small' is 12 OZ.",
+    "hl": [
+     "OZ."
+    ],
+    "art": [
+     {
+      "f": "coffee_cups",
+      "s": 0.7,
+      "x": 0.5,
+      "y": 0.5,
+      "args": {
+       "hidden": null,
+       "hit": 1
+      }
+     }
+    ],
+    "sub": "Starbucks started with two sizes: an 8 oz Short and a 12 oz Tall.",
+    "dur": 6
+   },
+   {
+    "bg": "yellow",
+    "head": "The Short still EXISTS.",
+    "hl": [
+     "EXISTS."
+    ],
+    "art": [
+     {
+      "f": "coffee_cups",
+      "s": 0.7,
+      "x": 0.5,
+      "y": 0.5,
+      "args": {
+       "hidden": null,
+       "hit": 0
+      }
+     }
+    ],
+    "sub": "Starbucks even launched its 2025 cortado in Short (8 oz) only.",
+    "dur": 5
+   },
+   {
+    "bg": "red",
+    "head": "Official reason: 'no ROOM.'",
+    "hl": [
+     "ROOM."
+    ],
+    "art": [
+     {
+      "f": "menu_board",
+      "s": 0.8,
+      "x": 0.5,
+      "y": 0.55,
+      "args": {
+       "ghost": "SHORT"
+      }
+     }
+    ],
+    "sub": "What Starbucks told economist Tim Harford (Slate, 2006).",
+    "dur": 5
+   },
+   {
+    "bg": "cream",
+    "head": "Hide the CHEAP cup.",
+    "hl": [
+     "CHEAP"
+    ],
+    "art": [
+     {
+      "f": "magnifier",
+      "s": 0.58,
+      "x": 0.5,
+      "y": 0.5,
+      "args": {
+       "txt": "8 oz"
+      }
+     }
+    ],
+    "sub": "Harford: only price-hunters ask for it. Everyone else pays more.",
+    "dur": 6
+   },
+   {
+    "bg": "ink",
+    "head": "Now GRANDE feels 'normal'.",
+    "hl": [
+     "GRANDE"
+    ],
+    "art": [
+     {
+      "f": "menu_board",
+      "s": 0.8,
+      "x": 0.5,
+      "y": 0.55
+     }
+    ],
+    "sub": "With no small in sight, 16 oz looks like the safe middle.",
+    "dur": 6
+   },
+   {
+    "bg": "yellow",
+    "head": "Twist: SAME shot as a Tall.",
+    "hl": [
+     "SAME"
+    ],
+    "art": [
+     {
+      "f": "shots_compare",
+      "s": 0.7,
+      "x": 0.5,
+      "y": 0.5
+     }
+    ],
+    "sub": "Short and Tall lattes both get one espresso shot. The Tall just adds milk.",
+    "dur": 7
+   },
+   {
+    "bg": "red",
+    "head": "Next time, say: 'SHORT, please.'",
+    "hl": [
+     "SHORT,"
+    ],
+    "art": [
+     {
+      "f": "big_button",
+      "s": 0.62,
+      "x": 0.5,
+      "y": 0.5,
+      "args": {
+       "txt": "SHORT"
+      }
+     }
+    ],
+    "sub": "Same coffee. Less milk. Lower price.",
+    "dur": 5
+   },
+   {
+    "bg": "ink",
+    "cta": true,
+    "end": "Save this + send it to the friend who always orders a Tall.",
+    "src": "Sources: Harford/Slate 2006 · Starbucks 2025 · Business Insider · Reader's Digest"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-15",
+  "slug": "starbucks-short-tiktok",
+  "cover": {
+   "bg": "yellow",
+   "head": "The smallest cup? NOT on the menu.",
+   "hl": [
+    "NOT"
+   ],
+   "hsize": 124,
+   "art": [
+    {
+     "f": "menu_board",
+     "s": 0.72,
+     "x": 0.47,
+     "y": 0.55,
+     "args": {
+      "ghost": "SHORT"
+     }
+    }
+   ],
+   "sub": "Starbucks' 8 oz Short. You have to ask.",
+   "series": "STARBUCKS · PART 1"
+  },
+  "beats": [
+   {
+    "bg": "yellow",
+    "head": "The smallest cup? NOT on the menu.",
+    "hl": [
+     "NOT"
+    ],
+    "hsize": 124,
+    "art": [
+     {
+      "f": "menu_board",
+      "s": 0.72,
+      "x": 0.47,
+      "y": 0.55,
+      "args": {
+       "ghost": "SHORT"
+      }
+     }
+    ],
+    "sub": "Starbucks' 8 oz Short. You have to ask.",
+    "dur": 5,
+    "series": "STARBUCKS · PART 1"
+   },
+   {
+    "bg": "ink",
+    "head": "Your 'small' is 12 OZ.",
+    "hl": [
+     "OZ."
+    ],
+    "art": [
+     {
+      "f": "coffee_cups",
+      "s": 0.63,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "hidden": null,
+       "hit": 1
+      }
+     }
+    ],
+    "sub": "Starbucks started with two sizes: an 8 oz Short and a 12 oz Tall.",
+    "dur": 6,
+    "series": "STARBUCKS · PART 1"
+   },
+   {
+    "bg": "yellow",
+    "head": "The Short still EXISTS.",
+    "hl": [
+     "EXISTS."
+    ],
+    "art": [
+     {
+      "f": "coffee_cups",
+      "s": 0.63,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "hidden": null,
+       "hit": 0
+      }
+     }
+    ],
+    "sub": "Starbucks even launched its 2025 cortado in Short (8 oz) only.",
+    "dur": 5,
+    "series": "STARBUCKS · PART 1"
+   },
+   {
+    "bg": "red",
+    "head": "Official reason: 'no ROOM.'",
+    "hl": [
+     "ROOM."
+    ],
+    "art": [
+     {
+      "f": "menu_board",
+      "s": 0.72,
+      "x": 0.47,
+      "y": 0.55,
+      "args": {
+       "ghost": "SHORT"
+      }
+     }
+    ],
+    "sub": "What Starbucks told economist Tim Harford (Slate, 2006).",
+    "dur": 5,
+    "series": "STARBUCKS · PART 1"
+   },
+   {
+    "bg": "cream",
+    "head": "Hide the CHEAP cup.",
+    "hl": [
+     "CHEAP"
+    ],
+    "art": [
+     {
+      "f": "magnifier",
+      "s": 0.522,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "8 oz"
+      }
+     }
+    ],
+    "sub": "Harford: only price-hunters ask for it. Everyone else pays more.",
+    "dur": 6,
+    "series": "STARBUCKS · PART 1"
+   },
+   {
+    "bg": "ink",
+    "head": "Now GRANDE feels 'normal'.",
+    "hl": [
+     "GRANDE"
+    ],
+    "art": [
+     {
+      "f": "menu_board",
+      "s": 0.72,
+      "x": 0.47,
+      "y": 0.55
+     }
+    ],
+    "sub": "With no small in sight, 16 oz looks like the safe middle.",
+    "dur": 6,
+    "series": "STARBUCKS · PART 1"
+   },
+   {
+    "bg": "yellow",
+    "head": "Twist: SAME shot as a Tall.",
+    "hl": [
+     "SAME"
+    ],
+    "art": [
+     {
+      "f": "shots_compare",
+      "s": 0.63,
+      "x": 0.47,
+      "y": 0.5
+     }
+    ],
+    "sub": "Short and Tall lattes both get one espresso shot. The Tall just adds milk.",
+    "dur": 7,
+    "series": "STARBUCKS · PART 1"
+   },
+   {
+    "bg": "red",
+    "head": "Next time, say: 'SHORT, please.'",
+    "hl": [
+     "SHORT,"
+    ],
+    "art": [
+     {
+      "f": "big_button",
+      "s": 0.558,
+      "x": 0.47,
+      "y": 0.5,
+      "args": {
+       "txt": "SHORT"
+      }
+     }
+    ],
+    "sub": "Same coffee. Less milk. Lower price.",
+    "dur": 5,
+    "series": "STARBUCKS · PART 1"
+   },
+   {
+    "bg": "ink",
+    "cta": true,
+    "end": "Follow for Part 2: the Starbucks size that vanished.",
+    "src": "Sources: Harford/Slate 2006 · Starbucks 2025 · Business Insider · Reader's Digest",
+    "series": "STARBUCKS · PART 1"
+   }
+  ]
+ }
+]

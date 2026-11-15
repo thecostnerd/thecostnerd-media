@@ -637,3 +637,103 @@ def big_button(S=700, txt="PAY IN 4", color=YEL):
 
 
 ART.update({"phone": phone, "layaway_card": layaway_card, "bars2": bars2, "pay4": pay4, "big_button": big_button})
+
+
+def tall_can(S=700, price="99¢", label="ICED TEA", color=BLUE, band=YEL):
+    """Generic tallboy drink can with the price printed on it (no brand trade dress)."""
+    c = C(S)
+    c.rect(300, 120, 700, 920, color, r=60)                        # body
+    c.ell(300, 70, 700, 170, SILVER)                               # lid
+    c.ell(420, 95, 580, 140, (170, 170, 166, 255), ow=8, shadow=False)  # tab
+    c.d.rectangle(c.p(306, 420, 694, 640), fill=band)              # label band
+    c.line([(306, 420), (694, 420)], INK, 10); c.line([(306, 640), (694, 640)], INK, 10)
+    c.text(500, 530, label, 66 if len(label) <= 8 else 54, INK)
+    c.ell(395, 200, 605, 380, LIGHT, ow=10, shadow=False)          # printed price roundel
+    c.text(500, 292, price, 92 if len(price) <= 3 else 70, RED)
+    c.line([(360, 700), (360, 860)], (255, 255, 255, 140), 18)     # shine
+    return c.done()
+
+
+def checklist(S=700, rows=("NO ADS", "OWN FACTORIES", "RAIL FREIGHT"), title=""):
+    """A card with ticked rows."""
+    c = C(S)
+    c.rect(90, 140, 910, 860, LIGHT, r=30)
+    y0 = 270 if not title else 330
+    if title: c.text(500, 230, title, 60, GREY, XB)
+    step = (740 - y0) / max(1, len(rows) - 1) if len(rows) > 1 else 0
+    fs = 70 if max(len(r) for r in rows) <= 12 else 56
+    for i, r in enumerate(rows):
+        y = y0 + i * step
+        c.ell(150, y - 55, 260, y + 55, GREEN, ow=8, shadow=False)
+        c.line([(178, y), (200, y + 25), (236, y - 25)], LIGHT, 16)
+        c.text(300, y, r, fs, INK, BLACK, anchor="lm")
+    return c.done()
+
+
+ART.update({"tall_can": tall_can, "checklist": checklist})
+
+
+def coffee_cups(S=700, sizes=(("SHORT", "8"), ("TALL", "12"), ("GRANDE", "16"), ("VENTI", "20")), hidden=0, hit=None):
+    """Plain coffee cups by size (no brand marks). hidden = index drawn dashed/ghosted, hit = index highlighted."""
+    c = C(S)
+    c.rect(30, 40, 970, 975, LIGHT, r=30)
+    xs = [150, 383, 617, 850]; base = 770
+    hs = [int(120 + 28 * int(o)) for _, o in sizes]
+    for i, ((nm, oz), x, h) in enumerate(zip(sizes, xs, hs)):
+        w = 40 + int(oz) * 3
+        top = base - h
+        if i == hidden:
+            pts = [(x - w, top), (x + w, top), (x + w * 0.8, base), (x - w * 0.8, base), (x - w, top)]
+            for a, b in zip(pts, pts[1:]):
+                n = 8
+                for k in range(n):
+                    if k % 2 == 0:
+                        p0 = (a[0] + (b[0] - a[0]) * k / n, a[1] + (b[1] - a[1]) * k / n)
+                        p1 = (a[0] + (b[0] - a[0]) * (k + 1) / n, a[1] + (b[1] - a[1]) * (k + 1) / n)
+                        c.line([p0, p1], RED, 12)
+            c.text(x, top + h * 0.5, "?", 120, RED)
+        else:
+            col = YEL if i == hit else CREAM
+            c.poly([(x - w, top), (x + w, top), (x + w * 0.8, base), (x - w * 0.8, base)], col)
+            c.rect(x - w - 12, top - 40, x + w + 12, top + 6, (62, 60, 66, 255), r=12, shadow=False)
+            c.d.rectangle(c.p(x - w * 0.9, top + h * 0.38, x + w * 0.9, top + h * 0.6), fill=KRAFT)
+        c.text(x, base + 70, f"{oz} oz", 72, INK)
+        c.text(x, base + 145, nm, 50, GREY, XB)
+    return c.done()
+
+
+def menu_board(S=700, rows=(("TALL", "12 oz"), ("GRANDE", "16 oz"), ("VENTI", "20 oz")), ghost=None):
+    """A dark cafe menu board listing sizes. ghost = a row text shown crossed-out/missing at the top."""
+    c = C(S)
+    c.rect(80, 140, 920, 860, (40, 40, 38, 255), r=24)
+    c.text(500, 230, "SIZES", 60, YEL)
+    y = 340
+    if ghost:
+        c.text(200, y, ghost, 64, (90, 90, 86, 255), BLACK, anchor="lm")
+        c.line([(180, y), (520, y)], RED, 10); y += 130
+    for nm, oz in rows:
+        c.text(200, y, nm, 64, LIGHT, BLACK, anchor="lm")
+        c.text(800, y, oz, 56, YEL, XB, anchor="rm"); y += 130
+    return c.done()
+
+
+ART.update({"coffee_cups": coffee_cups, "menu_board": menu_board})
+
+
+def shots_compare(S=700, a=("SHORT", "8 oz"), b=("TALL", "12 oz"), shot="1 SHOT", extra="+ MILK"):
+    """Two plain cups with the same espresso shot; the bigger one just adds milk."""
+    c = C(S)
+    c.rect(30, 40, 970, 975, LIGHT, r=30)
+    for (nm, oz), x, h, w in ((a, 280, 340, 95), (b, 700, 520, 120)):
+        base = 760; top = base - h
+        c.poly([(x - w, top), (x + w, top), (x + w * 0.8, base), (x - w * 0.8, base)], CREAM)
+        c.rect(x - w - 12, top - 40, x + w + 12, top + 6, (62, 60, 66, 255), r=12, shadow=False)
+        c.d.rectangle(c.p(x - w * 0.78, base - 120, x + w * 0.78, base - 12), fill=BROWN)   # espresso layer
+        c.text(x, base - 66, shot, 40, LIGHT, XB)
+        c.text(x, base + 70, oz, 64, INK)
+        c.text(x, base + 140, nm, 46, GREY, XB)
+    c.text(700, 760 - 520 + 220, extra, 44, RED)
+    return c.done()
+
+
+ART.update({"shots_compare": shots_compare})

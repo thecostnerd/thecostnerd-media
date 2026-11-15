@@ -210,6 +210,17 @@ def end_frame(img, beat, W, H, lt, mode, pal):
     d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(216, 38, 30), outline=(24, 22, 20), width=10)
     if k > 0.7: specs_mark(d, cx, cy + 10, int(82 * min(1, k)))
     y = cy + 290
+    if beat.get("cta"):  # action-first end card: the CTA is the headline, handle underneath
+        f3, ls, s3 = fit(beat["end"], BLACK, W - 160, 360, 92)
+        for l in ls:
+            tw = d.textlength(l, font=f3); x0 = (W - tw) / 2
+            d.text((x0, y), l, font=f3, fill=pal["fg"]); y += s3 * 1.12
+        y += 30
+        hl = (216, 38, 30) if beat.get("bg") != "red" else (247, 196, 49)
+        f = F(BLACK, 64); l = "@THECOSTNERD"; d.text(((W - d.textlength(l, font=f)) / 2, y), l, font=f, fill=hl)
+        if beat.get("src"):
+            f4 = F(SB, 26); d.text(((W - d.textlength(beat["src"], font=f4)) / 2, H - (430 if mode == "reel" else 110)), beat["src"], font=f4, fill=pal["sub"])
+        return img
     for l, c in (("FOLLOW", pal["fg"]), ("@THECOSTNERD", (216, 38, 30) if beat.get("bg") != "red" else (247, 196, 49))):
         f = F(BLACK, 100); d.text(((W - d.textlength(l, font=f)) / 2, y), l, font=f, fill=c); y += 110
     t = "The price tag never tells the whole story."
