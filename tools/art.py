@@ -121,11 +121,8 @@ def pie(S=700, frac=0.66, label="⅔"):
     c.ell(130, 130, 870, 870, LIGHT)
     c.d.pieslice(c.p(130, 130, 870, 870), -90, -90 + 360 * frac, fill=RED, outline=INK, width=c.w(12))
     c.d.ellipse(c.p(130, 130, 870, 870), outline=INK, width=c.w(12))
-    if frac >= 0.5:
-        c.text(560, 600, label, 200, LIGHT)
-    else:
-        c.rect(300, 420, 700, 600, YEL, r=30)
-        c.text(500, 510, label, 140, INK)
+    c.rect(300, 420, 700, 600, YEL, r=30)
+    c.text(500, 510, label, 140 if len(label) <= 3 else 110, INK)
     return c.done()
 
 
@@ -683,6 +680,8 @@ def coffee_cups(S=700, sizes=(("SHORT", "8"), ("TALL", "12"), ("GRANDE", "16"), 
     c.rect(30, 40, 970, 975, LIGHT, r=30)
     xs = [150, 383, 617, 850]; base = 770
     hs = [int(120 + 28 * int(o)) for _, o in sizes]
+    mx = max(hs)
+    if mx > 640: hs = [int(h * 640 / mx) for h in hs]
     for i, ((nm, oz), x, h) in enumerate(zip(sizes, xs, hs)):
         w = 40 + int(oz) * 3
         top = base - h
@@ -779,3 +778,38 @@ def credit_gauge(S=700, val=0.62, label="CREDIT SCORE", note="NOT REPORTED"):
 
 
 ART.update({"egg_carton": egg_carton, "credit_gauge": credit_gauge})
+
+
+def suitcase(S=700, tag="$45", color=BLUE):
+    """A plain rolling suitcase with a luggage tag."""
+    c = C(S)
+    c.rect(400, 120, 600, 210, (62, 60, 66, 255), r=30, shadow=False)          # handle
+    c.rect(430, 150, 570, 220, CREAM, r=20, ow=0, shadow=False)
+    c.rect(250, 210, 750, 820, color, r=50)
+    for x in (380, 500, 620): c.line([(x, 250), (x, 780)], (255, 255, 255, 90), 14)
+    c.ell(290, 810, 370, 890, INK, ow=0, shadow=False); c.ell(630, 810, 710, 890, INK, ow=0, shadow=False)
+    if tag:
+        c.line([(700, 300), (800, 420)], INK, 8)
+        c.rect(740, 400, 950, 560, YEL, r=18)
+        c.text(845, 480, tag, 70 if len(tag) <= 4 else 52, INK)
+    return c.done()
+
+
+ART.update({"suitcase": suitcase})
+
+
+def fries(S=700, label="FREE", color=BLUE):
+    """A generic fries carton (no brand trade dress) with a small label."""
+    c = C(S)
+    for i, x in enumerate(range(330, 690, 40)):
+        top = 150 + (i % 3) * 40
+        c.rect(x, top, x + 34, 520, YEL, r=8, ow=8)
+    c.poly([(270, 430), (730, 430), (680, 860), (320, 860)], color)
+    c.line([(300, 520), (700, 520)], (255, 255, 255, 90), 10)
+    if label:
+        c.rect(380, 620, 620, 740, LIGHT, r=18)
+        c.text(500, 680, label, 64 if len(label) <= 4 else 48, INK)
+    return c.done()
+
+
+ART.update({"fries": fries})
